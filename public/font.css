@@ -1,0 +1,14 @@
+/* home page */
+.h-t1{
+    font-size: 80px;
+    font-weight: bold;
+    color: crimson;
+    font-family: 'Bree Serif', serif;
+}
+.h-t2{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+.p-1{
+    font-size: 11px;
+}
