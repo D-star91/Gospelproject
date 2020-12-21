@@ -14,11 +14,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/2.2.1/mdb.min.css" rel="stylesheet"/>
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+    
 </head>
 
 <body class="bg-secondary">
@@ -81,36 +77,11 @@
       $('#example').tooltip({ boundary: 'window' })
     </script>
     {{$slot}}
-
-    <footer class="bg-dark text-center text-lg-start">
-            <div class="row">
-                <div class="col-2">
-                    <a  href="#">
-                        <img src="{{asset('Image/loyallogo3.png')}}" height="50" alt="mdb logo" class="my-4">
-                    </a>
-                </div>
-
-                <div class="col-5">
-                    
-                </div>
-                <div class="col-md-5">
-                  <form class="my-4 px-5" action="">
-                    <div class="form-outline mb-4">
-                      <input type="text" id="form5Example1" class="form-control" />
-                      <label class="form-label" for="form5Example1">Name</label>
-                    </div>
-                    <div class="form-outline mb-4">
-                      <input type="email" id="form5Example2" class="form-control" />
-                      <label class="form-label" for="form5Example2">Email address</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Subscribe</button>
-                  </form>
-                </div>
-        <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.2)">
-            © 2020 Copyright:
-            <a class="text-dark" href="">loyalland.com</a>
-        </div>
-    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/2.2.1/mdb.min.js" ></script>
 </body>

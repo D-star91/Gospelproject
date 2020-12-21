@@ -1,4 +1,4 @@
-<x-Layout>
+<x-Userlayout>
 
     <div class="main-bg-home">
         <div class="container">
@@ -6,8 +6,8 @@
                 <div class="col-md-12">
                     <h1 class="h-t1 wow fadeInDown" data-wow-delay="0.3s"><strong>LOYAL LAND</strong></h1>
                     <hr class="hr-1 mx-auto wow fadeInDown" data-wow-delay="0.4s">
-                    <h5 class="h-t2 wow fadeInDown mb-5" data-wow-delay="0.4s"><strong>Ministry</strong></h5>
-                    <a  href="{{route('sign_up')}}" class="btn-1" >Sign up</a>
+                    <h5 class="h-t2 wow fadeInDown" data-wow-delay="0.4s"><strong>Ministry</strong></h5>
+                    <button  type="submit" class="btn-1 mt-4" >Sign up</button>
                 </div>
             </div>
         </div>
@@ -100,6 +100,5 @@
               </div>
         </div>
     </div>
-    
 
-</x-Layout>
+</x-Userlayout>
