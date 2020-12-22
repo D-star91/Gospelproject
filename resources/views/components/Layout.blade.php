@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
 </head>
@@ -45,16 +44,16 @@
                     <a class="navbr-font-br me-5" href="{{route('bible_home')}}">BIBLE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">STUDY</a>
+                    <a class="navbr-font-br me-5" href="{{route('study_home')}}">STUDY</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">PRAYER</a>
+                    <a class="navbr-font-br me-5" href="{{route('prayer')}}">PRAYER</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">CONTACT</a>
+                    <a class="navbr-font-br me-5" href="{{route('contact')}}">CONTACT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">ABOUT</a>
+                    <a class="navbr-font-br me-5" href="{{route('about')}}">ABOUT</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto nav-flex-icons">

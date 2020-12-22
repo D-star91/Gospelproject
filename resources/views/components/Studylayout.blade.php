@@ -14,17 +14,20 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/2.2.1/mdb.min.css" rel="stylesheet"/>
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
 </head>
 
 <body class="bg-secondary">
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbr-font-sty" href="#">
-            <img src="{{asset('Image/loyallogo3.png')}}" height="45" alt="mdb logo" class="mr-2 ml-5">LOYAL LAND
+    <nav class="navbar navbar-light bg-success">
+        <a class="navbr-font-sty" href="{{route('index')}}">
+            <img src="{{asset('Image/loyallogo3.png')}}" height="45" alt="mdb logo" class="mr-2 ml-5">LOYAL BIBLE STUDY
         </a>
       </nav>
         <!--Navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top bg-dark ">
+    <nav class="navbar navbar-expand-lg bg-dark ">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
         aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,7 +36,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">HOME
+                    <a class="navbr-font-br me-5" href="{{route('index')}}">HOME
                       <span class="sr-only">(current)</span>
                     </a>
                 </li>
@@ -73,8 +76,29 @@
           </div>
       </div>
     </nav>
+    <nav class="navbar navbar-expand-lg sticky-top bg-success ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+        aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+            <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item">
+                    <a class="navbr-font-br me-5" href="">LESSON</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbr-font-br me-5" href="">CATALOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbr-font-br me-5" href="">FAQS</a>
+                </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
     <script>
-        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
       var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
       })
@@ -105,10 +129,5 @@
     </footer>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/2.2.1/mdb.min.js" ></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

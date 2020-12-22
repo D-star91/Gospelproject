@@ -7,7 +7,6 @@
                     <h1 class="h-t1 wow fadeInDown" data-wow-delay="0.3s"><strong>LOYAL LAND</strong></h1>
                     <hr class="hr-1 mx-auto wow fadeInDown" data-wow-delay="0.4s">
                     <h5 class="h-t2 wow fadeInDown" data-wow-delay="0.4s"><strong>Ministry</strong></h5>
-                    <button  type="submit" class="btn-1 mt-4" >Sign up</button>
                 </div>
             </div>
         </div>

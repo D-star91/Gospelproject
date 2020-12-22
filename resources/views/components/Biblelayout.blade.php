@@ -45,16 +45,16 @@
                     <a class="navbr-font-br me-5" href="{{route('bible_home')}}">BIBLE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">STUDY</a>
+                    <a class="navbr-font-br me-5" href="{{route('study_home')}}">STUDY</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">PRAYER</a>
+                    <a class="navbr-font-br me-5" href="{{route('prayer')}}">PRAYER</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">CONTACT</a>
+                    <a class="navbr-font-br me-5" href="{{route('contact')}}">CONTACT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">ABOUT</a>
+                    <a class="navbr-font-br me-5" href="{{route('about')}}">ABOUT</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -69,6 +69,23 @@
                     </li>
                 </li>
             </ul>
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="navbr-font-br" href="" >
+                    User name
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a href="" class="navbr-font-br" data-bs-toggle="tooltip" data-bs-placement="top" title="Profile">
+                    <i class="fas fa-user-circle"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a href="" class="navbr-font-br" data-bs-toggle="tooltip" data-bs-placement="top" title="Logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                   </a>
+                </li>
+              </ul>
       </div>
     </nav>
         <!-- Old testament -->

@@ -49,3 +49,14 @@
     background-size: cover;
     text-align: center;
 }
+
+/* Study */
+.Study-bg{
+    background-image: url("Image/Bible\ study.png");
+    height: 80%;
+    padding-top: 8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}

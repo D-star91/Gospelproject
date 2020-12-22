@@ -41,16 +41,16 @@
                     <a class="navbr-font-br me-5" href="{{route('bible_home')}}">BIBLE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">STUDY</a>
+                    <a class="navbr-font-br me-5" href="{{route('study_home')}}">STUDY</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">PRAYER</a>
+                    <a class="navbr-font-br me-5" href="{{route('prayer')}}">PRAYER</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">CONTACT</a>
+                    <a class="navbr-font-br me-5" href="{{route('contact')}}">CONTACT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">ABOUT</a>
+                    <a class="navbr-font-br me-5" href="{{route('about')}}">ABOUT</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto nav-flex-icons">

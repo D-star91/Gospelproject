@@ -10,6 +10,17 @@ class Homecontroller extends Controller
     function index(){
         return view('index');
     }
+    // Contact
+    function Contact(){
+        return view('Contact');
+    }
+    // About
+    function About(){
+        return view('About');
+    }
+    function Prayer(){
+        return view('Prayer');
+    }
 
     // Sign up
     function Sign_up(){
