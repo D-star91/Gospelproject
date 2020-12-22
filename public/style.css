@@ -23,15 +23,15 @@
 .navbr-font-sty{
   padding: 5px;
   margin-left: 10px;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   color: crimson;
   font-family: 'Bree Serif', serif;
+  text-shadow: 2px 2px 10px black;
 }
 .navbr-font-sty:hover{
-  font-size: 25px;
-  font-weight: bold;
-  color: rgb(252, 115, 142);
+  color: crimson;
+  text-decoration: none;
 }
 .navbr-font-br{
   padding: 2px;
@@ -43,6 +43,18 @@
   transition-duration: 1000ms;
 }
 .navbr-font-br:hover{
+  color: rgb(252, 115, 142);
+}
+.navbr-font-br1{
+  padding: 2px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: black;
+  font-family: 'Bree Serif', serif;
+  transition-duration: 1000ms;
+}
+.navbr-font-br1:hover{
   color: rgb(252, 115, 142);
 }
 /* nav */

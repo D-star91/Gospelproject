@@ -38,7 +38,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">BIBLE</a>
+                    <a class="navbr-font-br me-5" href="{{route('bible_home')}}">BIBLE</a>
                 </li>
                 <li class="nav-item">
                     <a class="navbr-font-br me-5" href="">STUDY</a>
@@ -71,10 +71,10 @@
       </div>
     </nav>
     <script>
-      $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
       })
-      $('#example').tooltip({ boundary: 'window' })
     </script>
     {{$slot}}
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

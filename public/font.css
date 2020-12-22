@@ -18,3 +18,14 @@
     color: crimson;
     font-family: 'Bree Serif', serif;
 }
+/* Bible home */
+.h-t2{
+    font-size: 80px;
+    font-weight: bold;
+    color: #FFA900;
+    font-family: 'Bree Serif', serif;
+    text-shadow: 2px 2px 5px black;
+}
+.p-2{
+    font-size: 50px;
+}

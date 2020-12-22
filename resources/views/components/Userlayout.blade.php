@@ -38,7 +38,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">BIBLE</a>
+                    <a class="navbr-font-br me-5" href="{{route('bible_home')}}">BIBLE</a>
                 </li>
                 <li class="nav-item">
                     <a class="navbr-font-br me-5" href="">STUDY</a>
@@ -60,12 +60,12 @@
                   </a>
                 </li>
                 <li class="nav-item me-3 me-lg-0">
-                  <a href="" class="navbr-font-br" data-toggle="tooltip" data-placement="top" title="Profile">
+                  <a href="" class="navbr-font-br" data-bs-toggle="tooltip" data-bs-placement="top" title="Profile">
                     <i class="fas fa-user-circle"></i>
                   </a>
                 </li>
                 <li class="nav-item me-3 me-lg-0">
-                  <a href="" class="navbr-font-br" data-toggle="tooltip" data-placement="top" title="Logout">
+                  <a href="" class="navbr-font-br" data-bs-toggle="tooltip" data-bs-placement="top" title="Logout">
                     <i class="fas fa-sign-out-alt"></i>
                    </a>
                 </li>
@@ -74,9 +74,10 @@
       </div>
     </nav>
     <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
     </script>
     {{$slot}}
 
@@ -92,16 +93,9 @@
                     
                 </div>
                 <div class="col-md-5">
-                  <form class="my-4 px-5" action="">
-                    <div class="form-outline mb-4">
-                      <input type="text" id="form5Example1" class="form-control" />
-                      <label class="form-label" for="form5Example1">Name</label>
-                    </div>
-                    <div class="form-outline mb-4">
-                      <input type="email" id="form5Example2" class="form-control" />
-                      <label class="form-label" for="form5Example2">Email address</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Subscribe</button>
+                  <form class="form-inline my-4">
+                    <input class="form-control mr-sm-2" type="email" placeholder="Email address" aria-label="email">
+                    <button class="btn-5 my-2 my-sm-0" type="submit">Subscribe</button>
                   </form>
                 </div>
         <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.2)">
