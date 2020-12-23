@@ -1700,10 +1700,14 @@
                     
                 </div>
                 <div class="col-md-5">
-                <form class="form-inline my-4">
-                    <input class="form-control mr-sm-2" type="email" placeholder="Email address" aria-label="email">
+                  <form class="form-inline my-4" action="{{route('subscribe')}}" method="POST">
+                 @csrf
+                    <input class="form-control mr-sm-2" type="email" placeholder="Email address" aria-label="email" name="email">
                     <button class="btn-5 my-2 my-sm-0" type="submit">Subscribe</button>
                   </form>
+                  @error("userEmail")
+                    <p class="text-danger d-inline ">{{$message}}</p>
+                  @enderror
                 </div>
         <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.2)">
             © 2020 Copyright:

@@ -16,17 +16,18 @@ class Homecontroller extends Controller
     }
     // Subscribe
     function Subscribe(){
-        $validation=request()->validate([
-            "email"=>"required",
-        ]);
-        if($validation){
-            $subscribe=new Subscribe();
-            $subscribe->email=$validation['email'];
-            $subscribe->save();
-            return redirect()->route('received');
-        }else{
-            return back()->withErrors("$validation");
-        }
+        return "work";
+        // $validation=request()->validate([
+        //     "email"=>"required",
+        // ]);
+        // if($validation){
+        //     $subscribe=new Subscribe();
+        //     $subscribe->email=$validation['email'];
+        //     $subscribe->save();
+        //     return redirect()->route('received');
+        // }else{
+        //     return back()->withErrors("$validation");
+        // }
     }
     function Received(){
         return view('Received');
