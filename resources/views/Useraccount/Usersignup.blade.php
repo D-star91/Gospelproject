@@ -6,21 +6,22 @@
                 <div class="col-md-6">
                     <div class="reg-form-bg">
                         <h3>REGISTER</h3>
-                        <form>
+                        <form action="{{route('user_sign_up')}}" method="POST">
+                            @csrf
                             <div class="form-outline mb-4">
-                                <input type="text" id="typeText" class="form-control" />
+                                <input type="text" id="typeText" class="form-control" name="username"/>
                                 <label class="form-label" for="typeText">Name</label>
                             </div>
                             <div class="form-outline mb-4">
-                              <input type="email" id="form3Example3" class="form-control" />
+                              <input type="email" id="form3Example3" class="form-control" name="useremail"/>
                               <label class="form-label" for="form3Example3">Email address</label>
                             </div>
                             <div class="form-outline mb-4">
-                                <input type="tel" id="typePhone" class="form-control" />
+                                <input type="tel" id="typePhone" class="form-control" name="userphone"/>
                                 <label class="form-label" for="typePhone">Phone number</label>
                             </div>
                             <div class="form-outline mb-4">
-                              <input type="password" id="form3Example4" class="form-control" />
+                              <input type="password" id="form3Example4" class="form-control" name="userpassword"/>
                               <label class="form-label" for="form3Example4">Password</label>
                             </div>
                             <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>

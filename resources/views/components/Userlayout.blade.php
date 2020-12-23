@@ -56,7 +56,7 @@
             <ul class="navbar-nav ml-auto nav-flex-icons">
                 <li class="nav-item me-3 me-lg-0">
                   <a class="navbr-font-br" href="" >
-                    User name
+                    {{auth()->user()->name}}
                   </a>
                 </li>
                 <li class="nav-item me-3 me-lg-0">
@@ -65,7 +65,7 @@
                   </a>
                 </li>
                 <li class="nav-item me-3 me-lg-0">
-                  <a href="" class="navbr-font-br" data-bs-toggle="tooltip" data-bs-placement="top" title="Logout">
+                  <a href="{{route('logout')}}" class="navbr-font-br" data-bs-toggle="tooltip" data-bs-placement="top" title="Logout">
                     <i class="fas fa-sign-out-alt"></i>
                    </a>
                 </li>
@@ -93,10 +93,13 @@
                     
                 </div>
                 <div class="col-md-5">
-                  <form class="form-inline my-4">
-                    <input class="form-control mr-sm-2" type="email" placeholder="Email address" aria-label="email">
+                  <form class="form-inline my-4" action="{{route('subscribe')}}" method="POST">
+                    <input class="form-control mr-sm-2" type="email" placeholder="Email address" aria-label="email" name="email">
                     <button class="btn-5 my-2 my-sm-0" type="submit">Subscribe</button>
                   </form>
+                  @error("userEmail")
+                    <p class="text-danger d-inline ">{{$message}}</p>
+                  @enderror
                 </div>
         <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.2)">
             © 2020 Copyright:
