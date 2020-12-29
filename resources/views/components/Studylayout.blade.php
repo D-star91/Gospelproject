@@ -59,7 +59,7 @@
             <ul class="navbar-nav ml-auto nav-flex-icons">
                 <li class="nav-item me-3 me-lg-0">
                   <a class="navbr-font-br" href="" >
-                    User name
+                    {{auth()->user()->name}}
                   </a>
                 </li>
                 <li class="nav-item me-3 me-lg-0">
@@ -68,7 +68,7 @@
                   </a>
                 </li>
                 <li class="nav-item me-3 me-lg-0">
-                  <a href="" class="navbr-font-br" data-bs-toggle="tooltip" data-bs-placement="top" title="Logout">
+                  <a href="{{route('logout')}}" class="navbr-font-br" data-bs-toggle="tooltip" data-bs-placement="top" title="Logout">
                     <i class="fas fa-sign-out-alt"></i>
                    </a>
                 </li>

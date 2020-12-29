@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Biblecontroller;
 use App\Http\Controllers\Homecontroller;
+use App\Http\Controllers\Prayercontroller;
 use App\Http\Controllers\Studycontroller;
 use Illuminate\Support\Facades\Route;
 
@@ -34,3 +35,5 @@ Route::get("/bible_study",[Studycontroller::class,('Study_Home')])->name('study_
 
 // Prayer
 Route::get("/prayer",[Homecontroller::class,('Prayer')])->name('prayer');
+// Prayer form
+Route::post("/prayer",[Prayercontroller::class,('Prayer_form')])->name('prayer_form');

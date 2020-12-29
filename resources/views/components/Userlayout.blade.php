@@ -33,7 +33,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="navbr-font-br me-5" href="">HOME
+                    <a class="navbr-font-br me-5" href="{{route('home')}}">HOME
                       <span class="sr-only">(current)</span>
                     </a>
                 </li>
@@ -79,6 +79,7 @@
         return new bootstrap.Tooltip(tooltipTriggerEl)
       })
     </script>
+    
     {{$slot}}
 
     <footer class="bg-dark text-center text-lg-start">

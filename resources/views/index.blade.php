@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="prayer-form my-4">
-                        <form action="">
+                        <form action="prayer_form" method="POST">
                             @csrf
                             <h4 class="h-pr1  ">ဆုတောင်းချက်တင်ရန်</h4><hr>
                             <p class="p-1 mb-0">ကျေးဇူးပြု၍ ဇယားကွက်တွင် ဆုတောင်းချက် သို့မဟုတ် ကျေးဇူးတော်ချီးမွမ်းခြင်းကို တစ်ခုသာ ရေးပေးပါ။</p>

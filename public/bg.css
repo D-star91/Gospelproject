@@ -8,6 +8,10 @@
     background-size: cover;
     text-align: center;
 }
+.Verse{
+    border-radius: 10px;
+    padding: 20px;
+}
 /* Prayer form */
 .prayer-form{
     border: 2px solid#39C0ED;
