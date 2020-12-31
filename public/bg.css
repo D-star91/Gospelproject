@@ -8,6 +8,12 @@
     background-size: cover;
     text-align: center;
 }
+.bg-home{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
 .Verse{
     border-radius: 10px;
     padding: 20px;
@@ -18,6 +24,13 @@
     border-radius: 10px;
     background-color:#80DEEA;
     padding: 20px;
+}
+.Prayer-bg{
+    height: 100%;
+    padding-top: 3%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .bg-content{
     border: 2px solid#39C0ED;
@@ -64,3 +77,4 @@
     background-size: cover;
     text-align: center;
 }
+
