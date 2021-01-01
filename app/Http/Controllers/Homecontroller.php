@@ -64,7 +64,7 @@ class Homecontroller extends Controller
             $user->password=Hash::make($password);
             $user->save();
             if(Auth::attempt(["email"=>request('useremail'),'password'=>request('userpassword')])){
-                return redirect()->route('home');
+                return redirect()->route('study_user');
             }
         }else{
             return back()->withErrors($validation);
@@ -82,7 +82,7 @@ class Homecontroller extends Controller
         if($validation){
             $auth=Auth::attempt(["email"=>request('email'),'password'=>request('password')]);
             if($auth){
-                return redirect()->route('home');
+                return redirect()->route('study_user');
             }else{
                 return back()->with('error','tray again');
             }

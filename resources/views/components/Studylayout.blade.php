@@ -30,26 +30,20 @@
       </button>
       <div class="container">
         <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-            <ul class="navbar-nav me-auto">
+             <ul class="navbar-nav ml-auto me-auto">
                 <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('home')}}">HOME
+                    <a class="navbr-font-br me-0" href="{{route('index')}}">HOME
                       <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('bible_home')}}">BIBLE</a>
+                    <a class="navbr-font-br me-0" href="">LESSON</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('study_home')}}">STUDY</a>
+                    <a class="navbr-font-br me-0" href="">CATALOG</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('prayer')}}">PRAYER</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('contact')}}">CONTACT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('about')}}">ABOUT</a>
+                    <a class="navbr-font-br me-0" href="">FAQS</a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto nav-flex-icons">
@@ -69,27 +63,6 @@
                    </a>
                 </li>
               </ul>
-          </div>
-      </div>
-    </nav>
-    <nav class="navbar navbar-expand-lg sticky-top bg-success ">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
-        aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="container">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-            <ul class="navbar-nav ml-auto me-auto">
-                <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="">LESSON</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="">CATALOG</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="">FAQS</a>
-                </li>
-            </ul>
           </div>
       </div>
     </nav>

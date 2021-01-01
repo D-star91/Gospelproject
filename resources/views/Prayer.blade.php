@@ -1,4 +1,4 @@
-<x-Userlayout>
+<x-Layout>
 
     <div class="Prayer-bg">
         <div class="container">
@@ -49,52 +49,36 @@
             </div>
         </div>
     </div><hr>
-    <div class="Prayers-table">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p>
-                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                          Button with data-bs-target
-                        </button>
-                      </p>
-                      <div class="collapse" id="collapseExample">
-                        <div class="card card-body">
-                            <table class="table">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                  </tr>
-                                  
-                                </tbody>
-                              </table>
-                        </div>
-                      </div>
-                </div>
-            </div>
+    <div class="bg-pray-table">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <h3></h3>
+            <div data-mdb-spy="scroll" data-mdb-target="#scrollspy" data-mdb-offset="0" class="scrollspy-example my-3">
+              <table class="table table-light table-hover">
+                <thead>
+                  <tr class="table-danger">
+                    <th scope="col">Name</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Prayer</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  @foreach ( $Prayers as $Pray )
+                  <tr>
+                    <td class="table-info">{{$Pray['name']}}</td>
+                    <td class="table-info">{{$Pray['choose']}}</td>
+                    <td class="table-info">{{$Pray['messages']}}</td>
+                  </tr>
+                  @endforeach
+                  
+                  
+                </tbody>
+              </table>
+              </div>
+            
+          </div>
         </div>
+      </div>
     </div>
-<script>
-    var collapseElementList = [].slice.call(document.querySelectorAll('.collapse'))
-    var collapseList = collapseElementList.map(function (collapseEl) {
-    return new bootstrap.Collapse(collapseEl)
-    })
-</script>
-<script>
-    var myCollapse = document.getElementById('myCollapse')
-var bsCollapse = new bootstrap.Collapse(myCollapse, {
-  toggle: false
-})
-</script>
-</x-Userlayout>
+</x-Layout>

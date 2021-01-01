@@ -12,70 +12,78 @@
             </div>
         </div>
     </div> 
-    {{-- <div class="content-bg-pray">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                </div>
-                <div class="col-md-8">
-                    <div class=" my-4">
-                        <div class="col-sm-6 d-inline">
-                            <div class="card">
-                              <div class="card-body">
-                                <h5 class="h-t3">Bible</h5>
-                                <p class="card-text">
-                                    ဟေဗြဲ၊ဟေလသပါဠိတော်မှ၊မြန်မာဘာသာအားဖြင့်၊ဆရာယုဒသန်အနက်ပြန်သောဓမ္မဟောင်းကျမ်းနှင့်ဓမ္မသစ်ကျမ်း
-                                </p>
-                                <a href="#" class="btn-3">Read...</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-6 d-inline">
-                            <div class="card">
-                              <div class="card-body">
-                                <h5 class="h-t3">BooK</h5>
-                                <p class="card-text">
-                                  အသက်တာအတွက် တည်ဆောက်ခြင်းကိုဖြစ်သော စာအုပ်များ
-                                </p>
-                                <a href="#" class="btn-3">Read...</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-6 d-inline">
-                            <div class="card">
-                              <div class="card-body">
-                                <h5 class="h-t3">Testimonies</h5>
-                                <p class="card-text">
-                                  နေရပ်အသီးသီးမှ ယုံကြည်သူများ၏ ဘုရားသခင်ကောင်းမြတ်ခြင်း သက်သေခံချက်များ
-                                </p>
-                                <a href="#" class="btn-3">Read...</a>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                </div>
+    <div class="bg-home1">
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-md-6 my-4 ">
+            <div class="study-home">
+              <h5 class="h-t6 my-5">BIBLE STUDY</h5>
+                  <p class="card-text mb-5">
+                      This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.
+                  </p>     
+                  <a  href="{{route('study_home')}}" class="btn-4" >I will learn</a>
             </div>
-              <!-- Bible Study -->
-              <div class="card mb-3" style="max-width: auto">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="{{asset('image/Bible study.png')}}" alt="..." class="img-fluid"/>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="h-t5">Bible Study</h5>
-                      <p class="card-text">
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
-                      </p>
-                      
-                    </div>
-                    <a href="" class="btn-4">I will learn</a>
-                  </div>
-                </div>
-              </div>
+          </div>
         </div>
-    </div> --}}
-    
+      </div>
+    </div>
+    <div class="bg-verses">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="p-4">နှုတ်ကပတ်တော်သည် အကျွန်ုပ်ခြေရှေ့မှာ မီးခွက်ဖြစ်၍၊<br> အကျွန်ုပ်လမ်းခရီးကို လင်းစေပါ၏။</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-home2">
+      <div class="container">
+        <div class="row justify-content-start">
+          <div class="col-md-6 my-4 ">
+            <div class="study-home">
+              <h5 class="h-t4 my-5">BIBLE</h5>
+                  <p class="card-text mb-5">
+                      This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.
+                  </p>     
+                  <a  href="{{route('bible_home')}}" class="btn-6" >READ...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-home3">
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-md-6 my-4 ">
+            <div class="study-home">
+              <h5 class="h-t7 my-5">PRAYER</h5>
+                  <p class="card-text mb-5">
+                      This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.
+                  </p>     
+                  <a  href="{{route('prayer')}}" class="btn-8" >READ...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-home4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 my-4 ">
+            <div class="study-home">
+              <h5 class="h-t8 my-5">BOOK</h5>
+                  <p class="card-text mb-5">
+                      This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.
+                  </p>     
+                  <a  href="{{route('prayer')}}" class="btn-9" >READ...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 </x-Layout>

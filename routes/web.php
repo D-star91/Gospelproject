@@ -15,6 +15,20 @@ Route::get('/received',[Homecontroller::class,('Received')])->name('received');
 Route::get("/contact",[Homecontroller::class,('Contact')])->name('contact');
 Route::get("/about",[Homecontroller::class,('About')])->name('about');
 
+
+
+// Loguout
+Route::get("/logout",[Homecontroller::class,('Logout')])->name('logout');
+// User acc
+
+// Bible
+Route::get("/bible",[Biblecontroller::class,('Bible_Home')])->name('bible_home');
+
+// Bibl Study
+// gust
+Route::get("/study_home",[Studycontroller::class,('Study_Home')])->name('study_home');
+// user
+Route::get("/bible_study",[Studycontroller::class,('Study_user')])->name('study_user');
 // Sign up
 Route::get("/sign_up",[Homecontroller::class,('Sign_up')])->name('sign_up');
 Route::post("/sign_up",[Homecontroller::class,('User_Sign_up')])->name('user_sign_up');
@@ -22,18 +36,8 @@ Route::post("/sign_up",[Homecontroller::class,('User_Sign_up')])->name('user_sig
 Route::get("/login",[Homecontroller::class,('Login')])->name('login');
 Route::post("/login",[Homecontroller::class,('User_Login')])->name('user_login');
 
-// Loguout
-Route::get("/logout",[Homecontroller::class,('Logout')])->name('logout');
-// User acc
-Route::get("/home",[Homecontroller::class,('Home')])->name('home');
-
-// Bible
-Route::get("/bible",[Biblecontroller::class,('Bible_Home')])->name('bible_home');
-
-// Bibl Study
-Route::get("/bible_study",[Studycontroller::class,('Study_Home')])->name('study_home');
 
 // Prayer
-Route::get("/prayer",[Homecontroller::class,('Prayer')])->name('prayer');
+Route::get("/prayer",[Prayercontroller::class,('Prayer')])->name('prayer');
 // Prayer form
 Route::post("/prayer",[Prayercontroller::class,('Prayer_form')])->name('prayer_form');

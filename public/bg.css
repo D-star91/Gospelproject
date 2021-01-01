@@ -8,7 +8,45 @@
     background-size: cover;
     text-align: center;
 }
-.bg-home{
+.bg-home1{
+    height: 100%;
+    background-image: url("Image/Bible\ study.png");
+    padding-top: 8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.bg-home2{
+    height: 100%;
+    background-image: url("Image/bibles.png");
+    padding-top: 8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.bg-home3{
+    height: 100%;
+    background-image: url("Image/pj3.png");
+    padding-top: 8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.bg-home4{
+    height: 100%;
+    background-image: url("Image/library.png");
+    padding-top: 8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.bg-verses{
+    height: 30%;
+    padding-top: 2%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
