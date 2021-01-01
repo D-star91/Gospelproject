@@ -1395,25 +1395,515 @@
                 </div>
               </div>
             </div>
-    </div>
+        </div>
     </div>
     <!-- New testament -->
     <div class="new-test">
-        <div class="modal fade" id="new" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">ဓမ္မသစ်ကျမ်း</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal fade" id="new" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">ဓမ္မသစ်ကျမ်း</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="list-group scrollspy-example" id="list-tab" role="tablist" data-mdb-spy="scroll" data-mdb-target="#scrollspy" data-mdb-offset="0">
+                        <a class="list-group-item list-group-item-action active" id="list-matthew-list" data-bs-toggle="list" href="#list-matthew" role="tab" aria-controls="matthew">ရှင်မဿဲခရစ်ဝင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-mark-list" data-bs-toggle="list" href="#list-mark" role="tab" aria-controls="mark">ရှင်မာကုခရစ်ဝင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-luke-list" data-bs-toggle="list" href="#list-luke" role="tab" aria-controls="luke">ရှင်လုကာခရစ်ဝင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-john-list" data-bs-toggle="list" href="#list-john" role="tab" aria-controls="john">ရှင်ယောဟန်ခရစ်ဝင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-acts-list" data-bs-toggle="list" href="#list-acts" role="tab" aria-controls="acts">တမန်တော်ဝတ္ထု</a>
+                        <a class="list-group-item list-group-item-action" id="list-romans-list" data-bs-toggle="list" href="#list-romans" role="tab" aria-controls="romans">ရောမဩဝါဒစာ</a>
+                        <a class="list-group-item list-group-item-action" id="list-corinthians1-list" data-bs-toggle="list" href="#list-corinthians1" role="tab" aria-controls="corinthians1">ကောရိန္သုဩဝါဒစာပဌမစောင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-corinthians2-list" data-bs-toggle="list" href="#list-corinthians2" role="tab" aria-controls="corinthians2">ကောရိန္သုဩဝါဒစာဒုတိယစောင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-galatians-list" data-bs-toggle="list" href="#list-galatians" role="tab" aria-controls="galatians">ဂလာတိဩဝါဒစာ</a>
+                        <a class="list-group-item list-group-item-action" id="list-ephesians-list" data-bs-toggle="list" href="#list-ephesians" role="tab" aria-controls="ephesians">ဧဖက်ဩဝါဒစာ</a>
+                        <a class="list-group-item list-group-item-action" id="list-philippians-list" data-bs-toggle="list" href="#list-philippians" role="tab" aria-controls="philippians">ဖိလိပ္ပဩဝါဒစာ</a>
+                        <a class="list-group-item list-group-item-action" id="list-colossians-list" data-bs-toggle="list" href="#list-colossians" role="tab" aria-controls="colossians">ကောလောသဲဩဝါဒစာ</a>
+                        <a class="list-group-item list-group-item-action" id="list-thessalonians1-list" data-bs-toggle="list" href="#list-thessalonians1" role="tab" aria-controls="thessalonians1">သက်သာလောနိတ်ဩဝါဒစာပဌမစောင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-thessalonians2-list" data-bs-toggle="list" href="#list-thessalonians2" role="tab" aria-controls="thessalonians2">သက်သာလောနိတ်ဩဝါဒစာဒုတိယစောင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-timothy1-list" data-bs-toggle="list" href="#list-timothy1" role="tab" aria-controls="timothy1">တိမောသေဩဝါဒစာပဌမစောင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-timothy2-list" data-bs-toggle="list" href="#list-timothy2" role="tab" aria-controls="timothy2">တိမောသေဩဝါဒစာဒုတိယစောင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-titus-list" data-bs-toggle="list" href="#list-titus" role="tab" aria-controls="titus">တိတုဩဝါဒစာ</a>
+                        <a class="list-group-item list-group-item-action" id="list-philemon-list" data-bs-toggle="list" href="#list-philemon" role="tab" aria-controls="philemon">ဖိလေမုန်ဩဝါဒစာ</a>
+                        <a class="list-group-item list-group-item-action" id="list-hebrews-list" data-bs-toggle="list" href="#list-hebrews" role="tab" aria-controls="hebrews">ဟေဗြဲဩဝါဒစာ</a>
+                        <a class="list-group-item list-group-item-action" id="list-james-list" data-bs-toggle="list" href="#list-james" role="tab" aria-controls="james">ရှင်ယာကုပ်ဩဝါဒစာ</a>
+                        <a class="list-group-item list-group-item-action" id="list-peter1-list" data-bs-toggle="list" href="#list-peter1" role="tab" aria-controls="peter1">ရှင်ပေတရုဩဝါဒစာပဌမစောင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-peter2-list" data-bs-toggle="list" href="#list-peter2" role="tab" aria-controls="peter2">ရှင်ပေတရုဩဝါဒစာဒုတိယစောင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-john1-list" data-bs-toggle="list" href="#list-john1" role="tab" aria-controls="john1">ရှင်ယောဟန်ဩဝါဒစာပဌမစောင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-john2-list" data-bs-toggle="list" href="#list-john2" role="tab" aria-controls="john2">ရှင်ယောဟန်ဩဝါဒစာဒုတိယစောင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-john3-list" data-bs-toggle="list" href="#list-john3" role="tab" aria-controls="john3">ရှင်ယောဟန်ဩဝါဒစာတတိယစောင်</a>
+                        <a class="list-group-item list-group-item-action" id="list-jude-list" data-bs-toggle="list" href="#list-jude" role="tab" aria-controls="jude">ရှင်ယုဒဩဝါဒစာ</a>
+                        <a class="list-group-item list-group-item-action" id="list-revelation-list" data-bs-toggle="list" href="#list-revelation" role="tab" aria-controls="revelation">ဗျာဒိတ်ကျမ်း</a>
+                      </div>
+                    </div>
+                    <div class="col-8">
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-matthew" role="tabpanel" aria-labelledby="list-matthew-list">
+                            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                  <a href="" class="btn-bv">၁</a>
+                                  <a href="" class="btn-bv">၂</a>
+                                  <a href="" class="btn-bv">၃</a>
+                                  <a href="" class="btn-bv">၄</a>
+                                  <a href="" class="btn-bv">၅</a>
+                                  <a href="" class="btn-bv">၆</a>
+                                  <a href="" class="btn-bv">၇</a>
+                                  <a href="" class="btn-bv">၈</a>
+                                  <a href="" class="btn-bv">၉</a>
+                                  <a href="" class="btn-bv">၁၀</a>
+                                </div>
+                                <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                    <a href="" class="btn-bv">၁၁</a>
+                                    <a href="" class="btn-bv">၁၂</a>
+                                    <a href="" class="btn-bv">၁၃</a>
+                                    <a href="" class="btn-bv">၁၄</a>
+                                    <a href="" class="btn-bv">၁၅</a>
+                                    <a href="" class="btn-bv">၁၆</a>
+                                    <a href="" class="btn-bv">၁၇</a>
+                                    <a href="" class="btn-bv">၁၈</a>
+                                    <a href="" class="btn-bv">၁၉</a>
+                                    <a href="" class="btn-bv">၂၀</a>
+                                  </div>
+                                  <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                    <a href="" class="btn-bv">၂၁</a>
+                                    <a href="" class="btn-bv">၂၂</a>
+                                    <a href="" class="btn-bv">၂၃</a>
+                                    <a href="" class="btn-bv">၂၄</a>
+                                    <a href="" class="btn-bv">၂၅</a>
+                                    <a href="" class="btn-bv">၂၆</a>
+                                    <a href="" class="btn-bv">၂၇</a>
+                                    <a href="" class="btn-bv">၂၈</a>
+                                  </div>    
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-mark" role="tabpanel" aria-labelledby="list-mark-list">
+                            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                  <a href="" class="btn-bv">၁</a>
+                                  <a href="" class="btn-bv">၂</a>
+                                  <a href="" class="btn-bv">၃</a>
+                                  <a href="" class="btn-bv">၄</a>
+                                  <a href="" class="btn-bv">၅</a>
+                                  <a href="" class="btn-bv">၆</a>
+                                  <a href="" class="btn-bv">၇</a>
+                                  <a href="" class="btn-bv">၈</a>
+                                  <a href="" class="btn-bv">၉</a>
+                                  <a href="" class="btn-bv">၁၀</a>
+                                </div>
+                                <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                    <a href="" class="btn-bv">၁၁</a>
+                                    <a href="" class="btn-bv">၁၂</a>
+                                    <a href="" class="btn-bv">၁၃</a>
+                                    <a href="" class="btn-bv">၁၄</a>
+                                    <a href="" class="btn-bv">၁၅</a>
+                                    <a href="" class="btn-bv">၁၆</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-luke" role="tabpanel" aria-labelledby="list-luke-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                                <a href="" class="btn-bv">၆</a>
+                                <a href="" class="btn-bv">၇</a>
+                                <a href="" class="btn-bv">၈</a>
+                                <a href="" class="btn-bv">၉</a>
+                                <a href="" class="btn-bv">၁၀</a>
+                              </div>
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                  <a href="" class="btn-bv">၁၁</a>
+                                  <a href="" class="btn-bv">၁၂</a>
+                                  <a href="" class="btn-bv">၁၃</a>
+                                  <a href="" class="btn-bv">၁၄</a>
+                                  <a href="" class="btn-bv">၁၅</a>
+                                  <a href="" class="btn-bv">၁၆</a>
+                                  <a href="" class="btn-bv">၁၇</a>
+                                  <a href="" class="btn-bv">၁၈</a>
+                                  <a href="" class="btn-bv">၁၉</a>
+                                  <a href="" class="btn-bv">၂၀</a>
+                                </div>
+                                <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                  <a href="" class="btn-bv">၂၁</a>
+                                  <a href="" class="btn-bv">၂၂</a>
+                                  <a href="" class="btn-bv">၂၃</a>
+                                  <a href="" class="btn-bv">၂၄</a>
+                                </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-john" role="tabpanel" aria-labelledby="list-john-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                                <a href="" class="btn-bv">၆</a>
+                                <a href="" class="btn-bv">၇</a>
+                                <a href="" class="btn-bv">၈</a>
+                                <a href="" class="btn-bv">၉</a>
+                                <a href="" class="btn-bv">၁၀</a>
+                              </div>
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                  <a href="" class="btn-bv">၁၁</a>
+                                  <a href="" class="btn-bv">၁၂</a>
+                                  <a href="" class="btn-bv">၁၃</a>
+                                  <a href="" class="btn-bv">၁၄</a>
+                                  <a href="" class="btn-bv">၁၅</a>
+                                  <a href="" class="btn-bv">၁၆</a>
+                                  <a href="" class="btn-bv">၁၇</a>
+                                  <a href="" class="btn-bv">၁၈</a>
+                                  <a href="" class="btn-bv">၁၉</a>
+                                  <a href="" class="btn-bv">၂၀</a>
+                                </div>
+                                <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                  <a href="" class="btn-bv">၂၁</a>
+                                </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-acts" role="tabpanel" aria-labelledby="list-acts-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                                <a href="" class="btn-bv">၆</a>
+                                <a href="" class="btn-bv">၇</a>
+                                <a href="" class="btn-bv">၈</a>
+                                <a href="" class="btn-bv">၉</a>
+                                <a href="" class="btn-bv">၁၀</a>
+                              </div>
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                  <a href="" class="btn-bv">၁၁</a>
+                                  <a href="" class="btn-bv">၁၂</a>
+                                  <a href="" class="btn-bv">၁၃</a>
+                                  <a href="" class="btn-bv">၁၄</a>
+                                  <a href="" class="btn-bv">၁၅</a>
+                                  <a href="" class="btn-bv">၁၆</a>
+                                  <a href="" class="btn-bv">၁၇</a>
+                                  <a href="" class="btn-bv">၁၈</a>
+                                  <a href="" class="btn-bv">၁၉</a>
+                                  <a href="" class="btn-bv">၂၀</a>
+                                </div>
+                                <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                  <a href="" class="btn-bv">၂၁</a>
+                                  <a href="" class="btn-bv">၂၂</a>
+                                  <a href="" class="btn-bv">၂၃</a>
+                                  <a href="" class="btn-bv">၂၄</a>
+                                  <a href="" class="btn-bv">၂၅</a>
+                                  <a href="" class="btn-bv">၂၆</a>
+                                  <a href="" class="btn-bv">၂၇</a>
+                                  <a href="" class="btn-bv">၂၈</a>
+                                </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-romans" role="tabpanel" aria-labelledby="list-romans-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                                <a href="" class="btn-bv">၆</a>
+                                <a href="" class="btn-bv">၇</a>
+                                <a href="" class="btn-bv">၈</a>
+                                <a href="" class="btn-bv">၉</a>
+                                <a href="" class="btn-bv">၁၀</a>
+                              </div>
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                  <a href="" class="btn-bv">၁၁</a>
+                                  <a href="" class="btn-bv">၁၂</a>
+                                  <a href="" class="btn-bv">၁၃</a>
+                                  <a href="" class="btn-bv">၁၄</a>
+                                  <a href="" class="btn-bv">၁၅</a>
+                                  <a href="" class="btn-bv">၁၆</a>
+                                </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-corinthians1" role="tabpanel" aria-labelledby="list-corinthians1-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                                <a href="" class="btn-bv">၆</a>
+                                <a href="" class="btn-bv">၇</a>
+                                <a href="" class="btn-bv">၈</a>
+                                <a href="" class="btn-bv">၉</a>
+                                <a href="" class="btn-bv">၁၀</a>
+                              </div>
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                  <a href="" class="btn-bv">၁၁</a>
+                                  <a href="" class="btn-bv">၁၂</a>
+                                  <a href="" class="btn-bv">၁၃</a>
+                                  <a href="" class="btn-bv">၁၄</a>
+                                  <a href="" class="btn-bv">၁၅</a>
+                                  <a href="" class="btn-bv">၁၆</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-corinthians2" role="tabpanel" aria-labelledby="list-corinthians2-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                                <a href="" class="btn-bv">၆</a>
+                                <a href="" class="btn-bv">၇</a>
+                                <a href="" class="btn-bv">၈</a>
+                                <a href="" class="btn-bv">၉</a>
+                                <a href="" class="btn-bv">၁၀</a>
+                              </div>
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                  <a href="" class="btn-bv">၁၁</a>
+                                  <a href="" class="btn-bv">၁၂</a>
+                                  <a href="" class="btn-bv">၁၃</a>
+                                </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-galatians" role="tabpanel" aria-labelledby="list-galatians-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                                <a href="" class="btn-bv">၆</a>
+                                </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-ephesians" role="tabpanel" aria-labelledby="list-ephesians-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                                <a href="" class="btn-bv">၆</a>
+                                </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-philippians" role="tabpanel" aria-labelledby="list-philippians-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-colossians" role="tabpanel" aria-labelledby="list-colossians-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-thessalonians1" role="tabpanel" aria-labelledby="list-thessalonians1-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-thessalonians2" role="tabpanel" aria-labelledby="list-thessalonians2-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-timothy1" role="tabpanel" aria-labelledby="list-timothy1-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                                <a href="" class="btn-bv">၆</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-timothy2" role="tabpanel" aria-labelledby="list-timothy2-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-titus" role="tabpanel" aria-labelledby="list-titus-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-philemon" role="tabpanel" aria-labelledby="list-philemon-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-hebrews" role="tabpanel" aria-labelledby="list-hebrews-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                                <a href="" class="btn-bv">၆</a>
+                                <a href="" class="btn-bv">၇</a>
+                                <a href="" class="btn-bv">၈</a>
+                                <a href="" class="btn-bv">၉</a>
+                                <a href="" class="btn-bv">၁၀</a>
+                              </div>
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                  <a href="" class="btn-bv">၁၁</a>
+                                  <a href="" class="btn-bv">၁၂</a>
+                                  <a href="" class="btn-bv">၁၃</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-james" role="tabpanel" aria-labelledby="list-james-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-peter1" role="tabpanel" aria-labelledby="list-peter1-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-peter2" role="tabpanel" aria-labelledby="list-peter2-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-john1" role="tabpanel" aria-labelledby="list-john1-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-john2" role="tabpanel" aria-labelledby="list-john2-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-john3" role="tabpanel" aria-labelledby="list-john3-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-jude" role="tabpanel" aria-labelledby="list-jude-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-revelation" role="tabpanel" aria-labelledby="list-revelation-list">
+                          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁</a>
+                                <a href="" class="btn-bv">၂</a>
+                                <a href="" class="btn-bv">၃</a>
+                                <a href="" class="btn-bv">၄</a>
+                                <a href="" class="btn-bv">၅</a>
+                                <a href="" class="btn-bv">၆</a>
+                                <a href="" class="btn-bv">၇</a>
+                                <a href="" class="btn-bv">၈</a>
+                                <a href="" class="btn-bv">၉</a>
+                                <a href="" class="btn-bv">၁၀</a>
+                              </div>
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                <a href="" class="btn-bv">၁၁</a>
+                                <a href="" class="btn-bv">၁၂</a>
+                                <a href="" class="btn-bv">၁၃</a>
+                                <a href="" class="btn-bv">၁၄</a>
+                                <a href="" class="btn-bv">၁၅</a>
+                                <a href="" class="btn-bv">၁၆</a>
+                                <a href="" class="btn-bv">၁၇</a>
+                                <a href="" class="btn-bv">၁၈</a>
+                                <a href="" class="btn-bv">၁၉</a>
+                                <a href="" class="btn-bv">၂၀</a>
+                              </div>
+                              <div class="btn-group me-0 my-2" role="group" aria-label="First group">
+                                  <a href="" class="btn-bv">၂၁</a>
+                                  <a href="" class="btn-bv">၂၂</a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="modal-body">
-                  ...
-                </div>
+              </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
-              </div>
             </div>
+              </div>
           </div>
     </div>
     <script>
