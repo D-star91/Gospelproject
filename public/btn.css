@@ -140,6 +140,27 @@
     background:#FFA900;
     transition: 800ms;
 }
+.btn-bv{
+    border: 1px solid #FFA900;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0.5px;
+    background: #E0F2F1;
+    color: #FFA900;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 5px 2px 10px #e0f2f138;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+.btn-bv:hover{
+    text-decoration: none;
+    color:#E0F2F1;
+    background:#FFA900;
+    transition: 800ms;
+}
 /* Study */
 .btn-7{
     border: 1px solid #00B74A;

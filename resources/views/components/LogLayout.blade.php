@@ -30,28 +30,7 @@
       </button>
       <div class="container">
         <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('index')}}">HOME
-                      <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('bible_home')}}">BIBLE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('study_home')}}">STUDY</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('prayer')}}">PRAYER</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('contact')}}">CONTACT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('about')}}">ABOUT</a>
-                </li>
-            </ul>
+            
             <ul class="navbar-nav ms-auto nav-flex-icons">
                 <li class="nav-item me-3 me-lg-0">
                     <a href="{{route('sign_up')}}" class="navbr-font-br" data-toggle="tooltip" data-placement="top" title="Sign up"><i class="fas fa-sign-in-alt"></i></a>
