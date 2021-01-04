@@ -140,6 +140,38 @@
     background:#FFA900;
     transition: 800ms;
 }
+.btn-v{
+    border: 1px solid #FFA900;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-top: 7px;
+    background: #E0F2F1;
+    color: #FFA900;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 5px 2px 10px #e0f2f138;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+.btn-vs{
+    border: 1px solid #FFA900;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-top: 7px;
+    background: #E0F2F1;
+    color: #FFA900;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 5px 2px 10px #e0f2f138;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+.btn-vs:hover{
+    text-decoration: none;
+    color:#E0F2F1;
+    background:#FFA900;
+    transition: 800ms;
+}
 .btn-bv{
     border: 1px solid #FFA900;
     border-radius: 3px;
@@ -160,6 +192,54 @@
     color:#E0F2F1;
     background:#FFA900;
     transition: 800ms;
+}
+.btn-bi{
+    border: 1px solid#E65100;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    background: #E0F2F1;
+    color: #E65100;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 5px 2px 10px #e0f2f138;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+.btn-bi:hover{
+    text-decoration: none;
+    color:#E0F2F1;
+    background: #E65100;
+    transition: 800ms;
+}
+.next-arrow{
+    position: fixed;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+.right-arr{
+    border: 2px solid  #FFA900;
+    padding: 11.2px 15.24px;
+    margin: 5px;
+    color:  #FFA900;
+    background: #cbeffa;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.right-arr:hover {
+    border: 2px solid #FFA900;
+    border-radius: 10px;
+    padding: 11.2px 15.24px;
+    margin: 5px;
+    color: white;
+    background:  #FFA900;
+    box-shadow: 1px 1px 20px 1px #61616177;
+  }
+.prev-arrow{
+    position: fixed;
+    margin-top: 250px;
+    margin-right: 90px;
 }
 /* Study */
 .btn-7{

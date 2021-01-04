@@ -104,7 +104,14 @@
     background-size: cover;
     text-align: center;
 }
-
+.All-Chapter{
+    padding: 10px;
+    margin: 10px;
+}
+.chapter{
+    padding: 20px;
+    margin: 20px 10px
+}
 /* Study */
 .Study-bg{
     background-image: url("Image/Bible\ study.png");

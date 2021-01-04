@@ -30,7 +30,7 @@
       </button>
       <div class="container">
         <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-            {{-- <ul class="navbar-nav me-auto">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
                     <a class="navbr-font-br me-0" href="{{route('index')}}">HOME
                       <span class="sr-only">(current)</span>
@@ -46,12 +46,9 @@
                     <a class="navbr-font-br me-0" href="{{route('prayer')}}">PRAYER</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('contact')}}">CONTACT</a>
+                    <a class="navbr-font-br me-0" href="{{route('prayer')}}">BOOK</a>
                 </li>
-                <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('about')}}">ABOUT</a>
-                </li>
-            </ul> --}}
+            </ul>
             
           </div>
       </div>

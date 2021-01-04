@@ -37,6 +37,39 @@
 .p-2{
     font-size: 50px;
 }
+.h-bib{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color:#FFA900;
+    font-family: 'Bree Serif', serif;
+    text-shadow: 1px 1px 5px rgb(26, 1, 1);
+}
+.ch-1{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    color:#FFA900;
+}
+.ch-2{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    color:#FFA900;
+}
+.ch-p{
+    text-align: justify;
+}
+.ch-lb{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 4px;
+}
+.ch-ver{
+    padding-left: 20px;
+}
 /* Study */
 .h-t6{
     font-size: 80px;

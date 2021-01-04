@@ -23,14 +23,14 @@
                                     <input type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="အမည်">
                                 
                                 </div>
-                                <div class="form-group">
-                                    <select class="custom-select" name="choose" id="inlineFormCustomSelect">
+                                <div class="form-group mt-3">
+                                    <select name="choose" class="form-select" aria-label="Default select example">
                                         <option selected>Choose...</option>
                                         <option value="Pray">Pray</option>
                                         <option value="Praise">Praise</option>
                                     </select>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group mt-3">
                                     <label for="textAreaExample">ဆုတောင်းချက်ရေးပါ</label>
                                     @error("messages")
                                         <p class="text-danger d-inline" >ကျေးဇူးပြု၍ဆုတောင်းချက်ရေးပေးပါ။</p>

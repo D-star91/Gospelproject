@@ -18,7 +18,7 @@
           <div class="col-md-6 my-4 ">
             <div class="study-home">
               <h5 class="h-t6 my-5">BIBLE STUDY</h5>
-                  <p class="card-text mb-5">
+                  <p class="p-3 mb-5">
                       This is a wider card with supporting text below as a natural lead-in to
                       additional content. This content is a little bit longer.
                   </p>     
@@ -43,7 +43,7 @@
           <div class="col-md-6 my-4 ">
             <div class="study-home">
               <h5 class="h-t4 my-5">BIBLE</h5>
-                  <p class="card-text mb-5">
+                  <p class="p-3 mb-5">
                       This is a wider card with supporting text below as a natural lead-in to
                       additional content. This content is a little bit longer.
                   </p>     
@@ -59,7 +59,7 @@
           <div class="col-md-6 my-4 ">
             <div class="study-home">
               <h5 class="h-t7 my-5">PRAYER</h5>
-                  <p class="card-text mb-5">
+                  <p class="p-3 mb-5">
                       This is a wider card with supporting text below as a natural lead-in to
                       additional content. This content is a little bit longer.
                   </p>     
@@ -75,11 +75,11 @@
           <div class="col-md-6 my-4 ">
             <div class="study-home">
               <h5 class="h-t8 my-5">BOOK</h5>
-                  <p class="card-text mb-5">
+                  <p class="p-3 mb-5">
                       This is a wider card with supporting text below as a natural lead-in to
                       additional content. This content is a little bit longer.
                   </p>     
-                  <a  href="{{route('prayer')}}" class="btn-9" >READ...</a>
+                  <a  href="" class="btn-9" >READ...</a>
             </div>
           </div>
         </div>

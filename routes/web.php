@@ -23,7 +23,10 @@ Route::get("/logout",[Homecontroller::class,('Logout')])->name('logout');
 
 // Bible
 Route::get("/bible",[Biblecontroller::class,('Bible_Home')])->name('bible_home');
-
+// Old Testamets
+// Genesis
+Route::get("/bible/old/genesis_1",[Biblecontroller::class,('Genesis_1')])->name('gen_1');
+Route::get("/bible/old/genesis_2",[Biblecontroller::class,('Genesis_2')])->name('gen_2');
 // Bibl Study
 // gust
 Route::get("/study_home",[Studycontroller::class,('Study_Home')])->name('study_home');
