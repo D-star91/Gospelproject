@@ -86,7 +86,7 @@
                                       <div class="btn-group me-0 my-2" role="group" aria-label="First group">
                                         <a href="{{route('gen_1')}}" class="btn-bv">၁</a>
                                         <a href="{{route('gen_2')}}" class="btn-bv">၂</a>
-                                        <a href="" class="btn-bv">၃</a>
+                                        <a href="{{route('gen_3')}}" class="btn-bv">၃</a>
                                         <a href="" class="btn-bv">၄</a>
                                         <a href="" class="btn-bv">၅</a>
                                         <a href="" class="btn-bv">၆</a>
