@@ -32,7 +32,7 @@
             <h5 class="bfam-t2">သင်ခန်းစာအတွဲ (၁)</h5>
             <ul class="bfam-ul">သင်ခန်းစာများ-
                 <li class="bfam-li"> 
-                    <a href="" class="bfam-a">
+                    <a href="{{route('con_1-1')}}" class="bfam-a">
                         <span class="bfam-li-num">၁-၁</span> ကောင်းကင်နှင့်မြေကြီးကိုဖန်ဆင်းတော်မူသော ဘုရားသခင် </a><br>
                         <span class="bfam-li-t">ဘုရားသခင်သည် အရာခပ်သိမ်းကို ဖန်ဆင်းတော်မူ၏</span>
                 </li>

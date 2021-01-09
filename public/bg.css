@@ -122,10 +122,22 @@
     background-size: cover;
     text-align: center;
 }
+/* BFAM */
 .bfam-mu{
     background-color: aliceblue;
     padding: 25px;
     margin-bottom: 30px;
     border-radius: 10px;
 }
+/* Con */
+.con-bg{
+    background-color: blanchedalmond;
+    margin: 20px 0;
+    padding: 15px;
+}
+.con-les-bg{
+    padding: 20px;
+}
+/* Con */
+/* BFAM */
 

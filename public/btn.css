@@ -262,6 +262,26 @@
     background: #00B74A;
     transition: 800ms;
 }
+.bfam-ls-btn{
+    border: 1px solid #00B74A;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin: 5px;
+    max-width: 180px;
+    background: #E0F2F1;
+    color:#00B74A;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 5px 2px 10px #e0f2f138;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+.bfam-ls-btn:hover{
+    text-decoration: none;
+    color:#E0F2F1;
+    background: #00B74A;
+    transition: 800ms;
+}
 /* Prayer */
 .btn-8{
     border: 1px solid#39C0ED;
