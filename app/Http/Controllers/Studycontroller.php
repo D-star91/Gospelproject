@@ -12,4 +12,7 @@ class Studycontroller extends Controller
     function Study_Home(){
         return view('Useraccount.Studyuser');
     }
+    function BFAM(){
+        return view('Study.BFAM.BFAM');
+    }
 }

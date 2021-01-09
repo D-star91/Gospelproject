@@ -78,9 +78,58 @@
     font-family: 'Bree Serif', serif;
     text-shadow: 2px 2px 10px rgb(26, 1, 1);
 }
+.bfam-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00b74a;
+    margin: 20px 0;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 10px black;
+}
+.bfam-t1{
+    font-size: 23px;
+    font-weight: bold;
+    color: #00b74a;
+}
+.bfam-t2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #00b74a;
+    margin-bottom: 20px;
+}
 .p-3{
     font-size: 18px;
     color: white;
+}
+.bfam-ul{
+    list-style: none;
+    font-size: 18px;
+    color: #00b74a;
+    font-weight: bold;
+}
+.bfam-li{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.bfam-a{
+    text-decoration: none;
+    color:  #00B74A;
+}
+.bfam-a:hover{
+    text-decoration: none;
+    color:  #023516;
+    transition: 1000ms;
+}
+.bfam-li-num{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.bfam-li-t{
+    margin-left: 37px;
+    opacity: 50%;
+    font-size: 15px;
+    color:  #00B74A;
 }
 /* Prayer */
 .h-t7{
