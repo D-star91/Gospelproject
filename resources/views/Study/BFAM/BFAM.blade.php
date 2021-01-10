@@ -37,7 +37,7 @@
                         <span class="bfam-li-t">ဘုရားသခင်သည် အရာခပ်သိမ်းကို ဖန်ဆင်းတော်မူ၏</span>
                 </li>
                 <li class="bfam-li"> 
-                    <a href="" class="bfam-a">
+                    <a href="{{route('con_1-2')}}" class="bfam-a">
                         <span class="bfam-li-num">၁-၂</span> လူကိုအထူးဖန်ဆင်းခြင်း</a><br>
                         <span class="bfam-li-t">ဘုရားသခင်နှင့်၎င်း၊ မိမိတို့အချင်းချင်းနှင့်၎င်း အထူးမိတ်သဟာယဖွဲ့ရန် ဖန်ဆင်းခဲ့သည်</span>
                 </li>

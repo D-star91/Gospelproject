@@ -5,7 +5,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="con-les-bg">
-                        <h4 class="con-t1">သင်ခန်းစာ ၁ - ၁</h4>
+                        <h4 class="con-t1">သင်ခန်းစာ ၁ - ၂</h4>
                         <h3 class="con-t2">ကောင်းကင်နှင့် မြေကြီးကို ဖန်ဆင်းတော်မူသော ဘုရားသခင်</h3>
                         <h4 class="con-t3">ဘုရားသခင်သည် အရာခပ်သိမ်းကို ဖန်ဆင်းတော်မူ၏</h4>
                         <hr>

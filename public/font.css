@@ -142,6 +142,12 @@
     color:  #00B74A;
     font-weight: bold;
 }
+.bfam-ls-t3{
+    font-size: 16px;
+    color:  #00B74A;
+    font-weight: bold;
+    margin: 10px 0;
+}
 .bfam-ls-ver{
     font-weight: bold;
     color:  #00B74A;
@@ -150,10 +156,28 @@
 .bfam-ls-ver1{
     font-weight: bold;
 }
+.bfam-ls-ver3{
+    text-align: justify;
+    font-size: 12px;
+}
+.bfam-ls-ver4{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.bfam-ls-ver5{
+    font-weight: bold;
+    margin-right: 2px;
+}
 .bfam-ls-p1{
     font-size: 16px;
     text-align: justify;
 }
+.bfam-ls-p2{
+    font-size: 14px;
+    text-align: justify;
+    
+}
+
 /* Con */
 .con-t1{
     font-size: 20px;
