@@ -122,6 +122,17 @@
     background-size: cover;
     text-align: center;
 }
+.bg-profile{
+    height: 80%;
+    padding-top: 8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
 /* Lesson */
 .lesson-lable{
     padding-top: 20px;

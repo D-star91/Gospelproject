@@ -37,7 +37,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="">LESSON</a>
+                    <a class="navbr-font-br me-0" href="{{route('lesson')}}">LESSON</a>
                 </li>
                 <li class="nav-item">
                     <a class="navbr-font-br me-0" href="">FAQS</a>
@@ -50,7 +50,7 @@
                   </a>
                 </li>
                 <li class="nav-item me-3 me-lg-0">
-                  <a href="" class="navbr-font-br" data-bs-toggle="tooltip" data-bs-placement="top" title="Profile">
+                  <a href="{{route('profile')}}" class="navbr-font-br" data-bs-toggle="tooltip" data-bs-placement="top" title="Profile">
                     <i class="fas fa-user-circle"></i>
                   </a>
                 </li>

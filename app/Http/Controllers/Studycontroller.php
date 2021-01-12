@@ -16,6 +16,9 @@ class Studycontroller extends Controller
     function Lesson(){
         return view('Study.lesson');
     }
+    function Profile(){
+        return view('Useraccount.profile');
+    }
     // BFAM lesson
     function BFAM(){
         return view('Study.BFAM.BFAM');

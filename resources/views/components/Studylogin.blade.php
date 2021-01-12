@@ -37,10 +37,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="">LESSON</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="">CATALOG</a>
+                    <a class="navbr-font-br me-0" href="{{route('lesson')}}">LESSON</a>
                 </li>
                 <li class="nav-item">
                     <a class="navbr-font-br me-0" href="">FAQS</a>

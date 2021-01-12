@@ -36,6 +36,7 @@ Route::get("/study_home",[Studycontroller::class,('Study_Home')])->name('study_h
 // user
 Route::get("/bible_study",[Studycontroller::class,('Study_user')])->name('study_user');
 Route::get("/bible_study/lesson",[Studycontroller::class,('Lesson')])->name('lesson');
+Route::get("/bible_study/profile",[Studycontroller::class,('Profile')])->name('profile');
 // Lesson
 Route::get('/bible_study/bfam',[Studycontroller::class,('BFAM')])->name('bfam');
 Route::get('/bible_study/bfam/series/lesson_1_1',[Studycontroller::class,('Con_1_1')])->name('con_1-1');
