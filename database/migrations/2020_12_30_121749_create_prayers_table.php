@@ -17,7 +17,7 @@ class CreatePrayersTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('choose');
-            $table->string('messages');
+            $table->longText('messages');
             $table->timestamps();
         });
     }

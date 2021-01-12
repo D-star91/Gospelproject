@@ -41,28 +41,43 @@
                                     ထိုဇာတ်လမ်းတွင် ဇာတ်ကောင်များကမည်သူနည်း။ ထိုဇာတ်လမ်းရှိ ဇာတ်ကောင်များ၏ သရုပ်ဆောင်ချက်များကို ဖော်ပြပါ။
                                 </p>
                                 <div class="mb-3">
-                                    <label for="formGroupExampleInput" class="form-label">ဇာတ်ကောင်းများ၏အမည်များ</label>
-                                    <input type="text" name="answer1" class="form-control" id="formGroupExampleInput" placeholder="ထိုဇာတ်လမ်းတွ၍ ဇာတ်ကောင်းများမှာ မည်သူဖြစ်သနည်း။">
-                                  </div>
-                                  <div class="mb-3">
-                                    <label for="formGroupExampleInput2" class="form-label">ဇာတ်ကောင်များ၏သရုပ်ဆောင်ချက်များ</label>
-                                    <textarea rows="2" name="answer2" class="form-control" id="formGroupExampleInput2" placeholder="ဇာတ်လမ်းတွင် ဇာတ်ကောင်များ၏ သရုပ်ဆောင်ချက်များမှာ မည်သည့်အရာများဖြစ်သနည်း။"></textarea>    
-                                  </div>
+                                    <label for="formGroupExampleInput" class="form-label d-inline">ဇာတ်ကောင်းများ၏အမည်များ</label>
+                                    @error("answer1")
+                                        <p class="text-danger d-inline" >မေးခွန်းများကိုဖြေဆိုပေးပါ</p>
+                                    @enderror
+                                    <textarea type="text" name="answer1" class="form-control mt-2" id="formGroupExampleInput" placeholder="ထိုဇာတ်လမ်းတွ၍ ဇာတ်ကောင်းများမှာ မည်သူဖြစ်သနည်း။"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput2" class="form-label d-inline">ဇာတ်ကောင်များ၏သရုပ်ဆောင်ချက်များ</label>
+                                    @error("answer2")
+                                        <p class="text-danger d-inline" >မေးခွန်းများကိုဖြေဆိုပေးပါ</p>
+                                    @enderror
+                                    <textarea type="text"  rows="2" name="answer2" class="form-control mt-2" id="formGroupExampleInput2" placeholder="ဇာတ်လမ်းတွင် ဇာတ်ကောင်များ၏ သရုပ်ဆောင်ချက်များမှာ မည်သည့်အရာများဖြစ်သနည်း။"></textarea>    
+                                </div>
                                 <h3 class="bfam-ls-t3">အဆင့် (၂) ဇာတ်လမ်းကိုနားလည်ပါ။</h3>
                                 <p class="bfam-ls-p2">
                                     ဇာတ်ကောင်တိုင်းမည်သို့သောစိတ်ခံစားချက်ရှိသနည်း။ မည်သည့်ရွေးချယ်မှုများရှိသနည်း။ ဇာတ်ကောင်များ၏ ရွေးချယ်မှုနောက်ကွယ်တွင် မည်သည့်စိတ်ထားမျိုးရှိသနည်း။
                                 </p>
                                 <div class="mb-3">
-                                    <label for="formGroupExampleInput" class="form-label">ဇာတ်ကောင်များ၏စိတ်ခံစားချက်များ</label>
-                                    <textarea rows="3" name="answer3" class="form-control" id="formGroupExampleInput" placeholder="ဇာတ်ကောင်တိုင်းသည်မည်သည့် စိတ်ခံစားချက်ကိုရင်ဆိုင်နေရသနည်း?....."></textarea>
+                                    <label for="formGroupExampleInput" class="form-label d-inline">ဇာတ်ကောင်များ၏စိတ်ခံစားချက်များ</label>
+                                    @error("answer3")
+                                        <p class="text-danger d-inline" >မေးခွန်းများကိုဖြေဆိုပေးပါ</p>
+                                    @enderror
+                                    <textarea type="text" rows="3" name="answer3" class="form-control mt-2" id="formGroupExampleInput" placeholder="ဇာတ်ကောင်တိုင်းသည်မည်သည့် စိတ်ခံစားချက်ကိုရင်ဆိုင်နေရသနည်း?....."></textarea>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="formGroupExampleInput2" class="form-label">ဇာတ်ကောင်များ၏ရွေးချယ်မှုများ</label>
-                                    <textarea  rows="3" name="answer4" class="form-control" id="formGroupExampleInput2" placeholder="မည်သည့်ရွေးချယ်မှုကို ဇာတ်ကောင်များရရှိသနည်း?...."></textarea>
+                                    <label for="formGroupExampleInput2" class="form-label d-inline">ဇာတ်ကောင်များ၏ရွေးချယ်မှုများ</label>
+                                    @error("answer4")
+                                        <p class="text-danger d-inline" >မေးခွန်းများကိုဖြေဆိုပေးပါ</p>
+                                    @enderror
+                                    <textarea  type="text" rows="3" name="answer4" class="form-control mt-2" id="formGroupExampleInput2" placeholder="မည်သည့်ရွေးချယ်မှုကို ဇာတ်ကောင်များရရှိသနည်း?...."></textarea>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="formGroupExampleInput2" class="form-label">ဇာတ်ကောင်များ၏စိတ်နေသဘောထား</label>
-                                    <textarea rows="3" name="answer5" class="form-control" id="formGroupExampleInput2" placeholder="ထိုဇာတ်ကောင်များရွေးချယ်မှု၏ နောက်ကွယ်စိတ်ခံစားမှုဆုံးဖြတ်ချက်များကို ဖော်ပြပါ?...."></textarea>    
+                                    <label for="formGroupExampleInput2" class="form-label d-inline">ဇာတ်ကောင်များ၏စိတ်နေသဘောထား</label>
+                                    @error("answer5")
+                                        <p class="text-danger d-inline" >မေးခွန်းများကိုဖြေဆိုပေးပါ</p>
+                                    @enderror
+                                    <textarea type="text" rows="3" name="answer5" class="form-control mt-2" id="formGroupExampleInput2" placeholder="ထိုဇာတ်ကောင်များရွေးချယ်မှု၏ နောက်ကွယ်စိတ်ခံစားမှုဆုံးဖြတ်ချက်များကို ဖော်ပြပါ?...."></textarea>    
                                 </div>
                                 <h3 class="bfam-ls-t3">အဆင့် (၃) သမ္မာတရားကိုရှာဖွေဖော်ထုတ်ခြင်း</h3>
                                 <p class="bfam-ls-p2">
@@ -70,16 +85,25 @@
                                     အခြားသူများအား ချစ်ခြင်းအကြောင်း ဤဇာတ်လမ်းက မည်သို့ သင်ပေးပါသနည်း။
                                 </p>
                                 <div class="mb-3">
-                                    <label for="formGroupExampleInput" class="form-label">မှန်ကန်သောအတွေးအခေါ်နှင့် အပြုအမူ</label>
-                                    <textarea rows="3" name="answer6" class="form-control" id="formGroupExampleInput" placeholder="ထိုဇာတ်လမ်းတွင် မည်သည့်မှန်ကန်သောအတွေးအခေါ်များ၊ လုပ်ဆောင်ချက်များကိုတွေ့ရသနည်း။..."></textarea>
+                                    <label for="formGroupExampleInput" class="form-label d-inline">မှန်ကန်သောအတွေးအခေါ်နှင့် အပြုအမူ</label>
+                                    @error("answer6")
+                                        <p class="text-danger d-inline" >မေးခွန်းများကိုဖြေဆိုပေးပါ</p>
+                                    @enderror
+                                    <textarea type="text" rows="3" name="answer6" class="form-control mt-2" id="formGroupExampleInput" placeholder="ထိုဇာတ်လမ်းတွင် မည်သည့်မှန်ကန်သောအတွေးအခေါ်များ၊ လုပ်ဆောင်ချက်များကိုတွေ့ရသနည်း။..."></textarea>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="formGroupExampleInput2" class="form-label">ဘုရားကိုချစ်ခြင်း</label>
-                                    <textarea  rows="3" name="answer7" class="form-control" id="formGroupExampleInput2" placeholder="ထိုဇာတ်လမ်းအားဖြင့် ဘုရားသခင်အား စိတ်နှလုံးအကြွင်းမဲ့ ဉာဏ်စွမ်း ကိုယ်စွမ်းနှင့် ချစ်နိုင်အောင် မည်သို့ သင်ပေးသနည်း။..."></textarea>
+                                    <label for="formGroupExampleInput2" class="form-label d-inline">ဘုရားကိုချစ်ခြင်း</label>
+                                    @error("answer7")
+                                        <p class="text-danger d-inline" >မေးခွန်းများကိုဖြေဆိုပေးပါ</p>
+                                    @enderror
+                                    <textarea  type="text" rows="3" name="answer7" class="form-control mt-2" id="formGroupExampleInput2" placeholder="ထိုဇာတ်လမ်းအားဖြင့် ဘုရားသခင်အား စိတ်နှလုံးအကြွင်းမဲ့ ဉာဏ်စွမ်း ကိုယ်စွမ်းနှင့် ချစ်နိုင်အောင် မည်သို့ သင်ပေးသနည်း။..."></textarea>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="formGroupExampleInput2" class="form-label">အခြားသူများကိုချစ်ခြင်း</label>
-                                    <textarea rows="3" name="answer8" class="form-control" id="formGroupExampleInput2" placeholder="အခြားသူအားချစ်ခြင်းအကြောင်းမည်သည့်အရာကို သင်ပေးသနည်း။..."></textarea>    
+                                    <label for="formGroupExampleInput2" class="form-label d-inline">အခြားသူများကိုချစ်ခြင်း</label>
+                                    @error("answer8")
+                                        <p class="text-danger d-inline" >မေးခွန်းများကိုဖြေဆိုပေးပါ</p>
+                                    @enderror
+                                    <textarea type="text" rows="3" name="answer8" class="form-control mt-2" id="formGroupExampleInput2" placeholder="အခြားသူအားချစ်ခြင်းအကြောင်းမည်သည့်အရာကို သင်ပေးသနည်း။..."></textarea>    
                                 </div>
                             
                         <h4 class="bfam-ls-t1">သင်ခန်းစာဖြည့်စွက်ကျမ်းပိုဒ် - အကိုင်းအခက်များကိုချိုင်ခြင်း</h4>
@@ -138,16 +162,25 @@
                                         အ​ပြစ်​ကို​ဖော်​ပြ​ခြင်း၊ ဖြောင့်​မတ်​စွာ ပြု​ပြင်​ခြင်း၊ တ​ရား​ကို သွန်​သင်​ခြင်း ကျေး​ဇူး​များ​ကို ပြု​တတ်၏။</span>
                                 </p>
                                 <div class="mb-3">
-                                    <label for="formGroupExampleInput" class="form-label">ပြန်လည်ခြင်ဆင်ခြင်း (အတိတ်)</label>
-                                    <textarea rows="3" name="answer9" class="form-control" id="formGroupExampleInput" placeholder="ဘုရားသခင်အား ကျွန်ုပ်သည် စိတ်နှလုံးအကြွင်းမဲ့၊ ကိုယ်စိတ်နှလုံးသုံးပါးနှင့်ချစ်ပြီးပြီလား၊ အိမ်နီးချင်းကို မိမိကဲ့သို့ချစ်ပါသလား။"></textarea>
+                                    <label for="formGroupExampleInput" class="form-label d-inline">ပြန်လည်ခြင်ဆင်ခြင်း (အတိတ်)</label>
+                                    @error("answer9")
+                                        <p class="text-danger d-inline" >မေးခွန်းများကိုဖြေဆိုပေးပါ</p>
+                                    @enderror
+                                    <textarea type="text" rows="3" name="answer9" class="form-control mt-2" id="formGroupExampleInput" placeholder="ဘုရားသခင်အား ကျွန်ုပ်သည် စိတ်နှလုံးအကြွင်းမဲ့၊ ကိုယ်စိတ်နှလုံးသုံးပါးနှင့်ချစ်ပြီးပြီလား၊ အိမ်နီးချင်းကို မိမိကဲ့သို့ချစ်ပါသလား။"></textarea>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="formGroupExampleInput" class="form-label">ပြုပြင်ခြင်း (ပစ္စုပန်)</label>
-                                    <textarea rows="3" name="answer10" class="form-control" id="formGroupExampleInput" placeholder="ကျွန်တော့်အတွေးများနှင့်အပြုအမူများကို မည်သို့ပြုပြင်နိုင်မည်နည်း။"></textarea>
+                                    <label for="formGroupExampleInput" class="form-label d-inline">ပြုပြင်ခြင်း (ပစ္စုပန်)</label>
+                                    @error("answer10")
+                                        <p class="text-danger d-inline" >မေးခွန်းများကိုဖြေဆိုပေးပါ</p>
+                                    @enderror
+                                    <textarea type="text" rows="3" name="answer10" class="form-control mt-2" id="formGroupExampleInput" placeholder="ကျွန်တော့်အတွေးများနှင့်အပြုအမူများကို မည်သို့ပြုပြင်နိုင်မည်နည်း။"></textarea>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="formGroupExampleInput" class="form-label">လေ့ကျင့်ခြင်း (အနာဂတ်)</label>
-                                    <textarea rows="3" name="answer11" class="form-control" id="formGroupExampleInput" placeholder="ဘုရားသခင်နှင့်အခြားသူများအားပို၍ ချစ်နိုင်ဖို့ ကျွန်တော်မည်ကဲ့သို့ ပြင်ဆင်သင့်သနည်း။"></textarea>
+                                    <label for="formGroupExampleInput" class="form-label d-inline">လေ့ကျင့်ခြင်း (အနာဂတ်)</label>
+                                    @error("answer11")
+                                        <p class="text-danger d-inline" >မေးခွန်းများကိုဖြေဆိုပေးပါ</p>
+                                    @enderror
+                                    <textarea type="text" rows="3" name="answer11" class="form-control mt-2" id="formGroupExampleInput" placeholder="ဘုရားသခင်နှင့်အခြားသူများအားပို၍ ချစ်နိုင်ဖို့ ကျွန်တော်မည်ကဲ့သို့ ပြင်ဆင်သင့်သနည်း။"></textarea>
                                 </div>
                     </div>
                     <p class="bfam-ls-p2">သင်ခန်းစာများကို သေချာစွာလေ့လာပြီ မေးခွန်းများကိုသေချာစွာဖြေဆိုပေးပါ၊ သင်ခန်းစာများကိုလေ့လာပြီးနောက် "Submit" ကို နိုပ်ပြီး နောက်ထပ် သင်ခန်းစာ(၂) ကို

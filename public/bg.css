@@ -122,6 +122,21 @@
     background-size: cover;
     text-align: center;
 }
+/* Lesson */
+.lesson-lable{
+    padding-top: 20px;
+}
+.lesson-main{
+    padding-top: 20px;
+}
+.lesson-title{
+    padding: 10px;
+    margin: 10px 0;
+}
+.lesson-topics{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 /* BFAM */
 .bfam-mu{
     background-color: aliceblue;

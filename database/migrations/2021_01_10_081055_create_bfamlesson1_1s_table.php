@@ -15,7 +15,8 @@ class CreateBfamlesson11sTable extends Migration
     {
         Schema::create('bfamlesson1_1s', function (Blueprint $table) {
             $table->id();
-            $table->string('answer1');
+            $table->foreignId('user_id')->constrained();
+            $table->longText('answer1');
             $table->longText('answer2');
             $table->longText('answer3');
             $table->longText('answer4');

@@ -8,20 +8,20 @@
                         အသီးသီးခြင်းနှင့် တိုးပွားခြင်း
                     </h3>
                     <!-- Pills navs -->
-<ul class="nav nav-pills my-5 " id="ex1" role="tablist">
-    <li class="nav-item" role="presentation">
-      <a class="btn-7 active" id="ex1-tab-1" data-mdb-toggle="pill" href="#bfam-1" role="tab" aria-controls="bfam-1" aria-selected="true">သင်ခန်းစာအတွဲ (၁)</a>
-    </li>
-    <li class="nav-item" role="presentation">
-      <a class="btn-7" id="ex1-tab-2" data-mdb-toggle="pill" href="#bfam-2" role="tab" aria-controls="bfam-1bfam-2" aria-selected="false">သင်ခန်းစာအတွဲ (၂)</a>
-    </li>
-    <li class="nav-item" role="presentation">
-      <a class="btn-7" id="ex1-tab-3" data-mdb-toggle="pill" href="#bfam-3" role="tab" aria-controls="bfam-3" aria-selected="false">သင်ခန်းစာအတွဲ (၃)</a>
-    </li>
-    <li class="nav-item" role="presentation">
-        <a class="btn-7" id="ex1-tab-3" data-mdb-toggle="pill" href="#bfam-4" role="tab" aria-controls="bfam-4" aria-selected="false">သင်ခန်းစာအတွဲ (၄)</a>
-    </li>
-  </ul>
+                <ul class="nav nav-pills my-5 " id="ex1" role="tablist">
+                    <li class="nav-item" role="presentation">
+                    <a class="btn-7 active" id="ex1-tab-1" data-mdb-toggle="pill" href="#bfam-1" role="tab" aria-controls="bfam-1" aria-selected="true">သင်ခန်းစာအတွဲ (၁)</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <a class="btn-7" id="ex1-tab-2" data-mdb-toggle="pill" href="#bfam-2" role="tab" aria-controls="bfam-1bfam-2" aria-selected="false">သင်ခန်းစာအတွဲ (၂)</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <a class="btn-7" id="ex1-tab-3" data-mdb-toggle="pill" href="#bfam-3" role="tab" aria-controls="bfam-3" aria-selected="false">သင်ခန်းစာအတွဲ (၃)</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="btn-7" id="ex1-tab-3" data-mdb-toggle="pill" href="#bfam-4" role="tab" aria-controls="bfam-4" aria-selected="false">သင်ခန်းစာအတွဲ (၄)</a>
+                    </li>
+                </ul>
   <!-- Pills navs -->
   
   <!-- Pills content -->
@@ -42,7 +42,7 @@
                         <span class="bfam-li-t">ဘုရားသခင်နှင့်၎င်း၊ မိမိတို့အချင်းချင်းနှင့်၎င်း အထူးမိတ်သဟာယဖွဲ့ရန် ဖန်ဆင်းခဲ့သည်</span>
                 </li>
                 <li class="bfam-li"> 
-                    <a href="" class="bfam-a">
+                    <a href="{{route('con_1-3')}}" class="bfam-a">
                         <span class="bfam-li-num">၁-၃</span>လိမ်လည်လှည့်ဖြားသူ 'စာတန်'</a><br>
                         <span class="bfam-li-t">သူခိုးသည် ခိုးခြင်း၊ သတ်ခြင်းနှင့် ဖျက်ဆီးခြင်းငှါလာသည်</span>
                 </li>

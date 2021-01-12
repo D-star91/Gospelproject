@@ -40,9 +40,6 @@
                     <a class="navbr-font-br me-0" href="">LESSON</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="">CATALOG</a>
-                </li>
-                <li class="nav-item">
                     <a class="navbr-font-br me-0" href="">FAQS</a>
                 </li>
             </ul>
