@@ -29,4 +29,7 @@ class Biblecontroller extends Controller
     function Genesis_6(){
         return view('Bible.Old.Genesis.genesis_6');
     }
+    function Genesis_7(){
+        return view('Bible.Old.Genesis.genesis_7');
+    }
 }
