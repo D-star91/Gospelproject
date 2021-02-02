@@ -102,8 +102,8 @@
                 </div>
                 <div class="col-md-2">
                     <a href="{{route('con_1-1')}}" class="bfam-ls-btn1">လေ့လာမည် ၁-၁</a>
-                    <a href="" class="bfam-ls-btn2">လေ့လာမည် ၁-၂</a>
-                    <a href="" class="bfam-ls-btn3">လေ့လာမည် ၁-၃</a>
+                    <a href="{{route('con_1-2')}}" class="bfam-ls-btn2">လေ့လာမည် ၁-၂</a>
+                    <a href="{{route('con_1-3')}}" class="bfam-ls-btn3">လေ့လာမည် ၁-၃</a>
                     <a href="" class="bfam-ls-btn4">လေ့လာမည် ၁-၄</a>
                     <a href="" class="bfam-ls-btn5">လေ့လာမည် ၁-၅</a>
                     <a href="" class="bfam-ls-btn6">လေ့လာမည် ၁-၆</a>
