@@ -26,4 +26,7 @@ class Biblecontroller extends Controller
     function Genesis_5(){
         return view('Bible.Old.Genesis.genesis_5');
     }
+    function Genesis_6(){
+        return view('Bible.Old.Genesis.genesis_6');
+    }
 }

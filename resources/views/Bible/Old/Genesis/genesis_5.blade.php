@@ -1923,7 +1923,7 @@
                                         <a href="{{route('gen_3')}}" class="btn-bv">၃</a>
                                         <a href="{{route('gen_4')}}" class="btn-bv">၄</a>
                                         <a href="{{route('gen_5')}}" class="btn-bv">၅</a>
-                                        <a href="" class="btn-bv">၆</a>
+                                        <a href="{{route('gen_6')}}" class="btn-bv">၆</a>
                                         <a href="" class="btn-bv">၇</a>
                                         <a href="" class="btn-bv">၈</a>
                                         <a href="" class="btn-bv">၉</a>
@@ -2076,7 +2076,7 @@ var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
                 </div>
                 <div class="col-md-2">
                     <div class="next-arrow">
-                        <a href="{{route('gen_5')}}" class="right-arr">
+                        <a href="{{route('gen_6')}}" class="right-arr">
                             <i class="fas fa-angle-double-right"></i>
                         </a>
                     </div>
