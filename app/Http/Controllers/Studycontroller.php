@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Bfamlesson1_1;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 
 class Studycontroller extends Controller
 {
@@ -18,6 +20,31 @@ class Studycontroller extends Controller
     }
     function Profile(){
         return view('Useraccount.profile');
+    }
+    function Pro_update(){
+        $name=request('name');
+        $email=request('email');
+        $phone=request('phone');
+        $old_password=request('old_passwrod');
+        $new_password=request('new_password');
+
+        $id=auth()->user()->id;
+        $current_user=User::find($id);
+        $current_user->name=$name;
+        $current_user->email=$email;
+        $current_user->phone=$phone;
+
+        if($old_password && $new_password){
+            if(Hash::check($old_password,$current_user->password)){
+                $current_user->passwrod=$new_password;
+                $current_user->update();
+                return back()->with('proupdate','Receipt received');
+            }else{
+                return back()->with('error','old password is not same');
+            }
+        }
+        $current_user->update();
+        return back();
     }
     // BFAM lesson
     function BFAM(){

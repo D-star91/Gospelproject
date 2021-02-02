@@ -6,32 +6,39 @@
                 <div class="col-md-8">
                     <div class="profile">
                         <h3>Profile</h3>
-                        <form action="">
-                            <div class="form-outline my-3">
-                                <input type="text" id="form9Example3" class="form-control" />
-                                <label class="form-label" for="form9Example3">{{auth()->user()->name}}</label>
+                        <hr>
+                        <form action="{{route('pro_update')}}" method="POST">
+                        @csrf
+                            @if(session("success"))
+                                <div class="form-text text-center">
+                                    {{session("success")}}
+                                </div>
+                            @endif
+                            @if(session("error"))
+                                <div class="form-text text-center">
+                                    {{session("error")}}
+                                </div>
+                            @endif
+                            <div class="mb-3 col-sm-7">
+                                <label for="formGroupExampleInput" class="form-label">Name</label>
+                                <input type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="{{auth()->user()->name}}">
                               </div>
-                            
-                            <div class="row g-5">
-                                <div class="col">
-                                    <!-- Email input -->
-                                    <div class="form-outline">
-                                      <input type="email" id="form9Example4" class="form-control" />
-                                      <label class="form-label" for="form9Example4">{{auth()->user()->email}}</label>
-                                    </div>
+                              <div class="mb-3 col-sm-7">
+                                <label for="formGroupExampleInput" class="form-label">Email</label>
+                                <input type="email" name="email" class="form-control" id="formGroupExampleInput" placeholder="{{auth()->user()->email}}">
+                              </div>
+                              <div class="mb-3 col-sm-7">
+                                <label for="formGroupExampleInput" class="form-label">Phone</label>
+                                <input type="text" name="phone" class="form-control" id="formGroupExampleInput" placeholder="{{auth()->user()->phone}}">
+                              </div>
+                             <h5>Change Password</h5>
+                                <div class="col-sm-5 mb-3">
+                                  <input type="password" class="form-control" placeholder="Old Password" aria-label="Old Password">
                                 </div>
-                                <div class="col">
-                                    <!-- Number input -->
-                                <div class="form-outline ">
-                                    <input type="tel" id="form6Example6" class="form-control" />
-                                    <label class="form-label" for="form6Example6">{{auth()->user()->phone}}</label>
+                                <div class="col-sm-5 mb-3">
+                                  <input type="password" class="form-control" placeholder="New Password" aria-label="New Password">
                                 </div>
-                                </div>
-                            </div>
-                            <div class="form-outline my-3">
-                                <input type="text" id="form6Example4" class="form-control" name="address"/>
-                                <label class="form-label" for="form6Example4">Address</label>
-                            </div>
+                        <button class="pro-btn mt-3" type="submit">Update</button>
                         </form>
                     </div>
                         

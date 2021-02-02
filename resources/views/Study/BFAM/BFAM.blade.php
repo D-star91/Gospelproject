@@ -30,73 +30,92 @@
         <div class="bfam-mu">
             <h3 class="bfam-t1">တိုက်ထောင့်အမြစ်ကျောက်</h3>
             <h5 class="bfam-t2">သင်ခန်းစာအတွဲ (၁)</h5>
-            <ul class="bfam-ul">သင်ခန်းစာများ-
-                <li class="bfam-li"> 
-                    <a href="{{route('con_1-1')}}" class="bfam-a">
-                        <span class="bfam-li-num">၁-၁</span> ကောင်းကင်နှင့်မြေကြီးကိုဖန်ဆင်းတော်မူသော ဘုရားသခင် </a><br>
-                        <span class="bfam-li-t">ဘုရားသခင်သည် အရာခပ်သိမ်းကို ဖန်ဆင်းတော်မူ၏</span>
-                </li>
-                <li class="bfam-li"> 
-                    <a href="{{route('con_1-2')}}" class="bfam-a">
-                        <span class="bfam-li-num">၁-၂</span> လူကိုအထူးဖန်ဆင်းခြင်း</a><br>
-                        <span class="bfam-li-t">ဘုရားသခင်နှင့်၎င်း၊ မိမိတို့အချင်းချင်းနှင့်၎င်း အထူးမိတ်သဟာယဖွဲ့ရန် ဖန်ဆင်းခဲ့သည်</span>
-                </li>
-                <li class="bfam-li"> 
-                    <a href="{{route('con_1-3')}}" class="bfam-a">
-                        <span class="bfam-li-num">၁-၃</span>လိမ်လည်လှည့်ဖြားသူ 'စာတန်'</a><br>
-                        <span class="bfam-li-t">သူခိုးသည် ခိုးခြင်း၊ သတ်ခြင်းနှင့် ဖျက်ဆီးခြင်းငှါလာသည်</span>
-                </li>
-                <li class="bfam-li"> 
-                    <a href="" class="bfam-a">
-                        <span class="bfam-li-num">၁-၄</span> အာဒံနှင့်ဧဝ ဘုရားသခင်အား မနာခံခဲ့ပါ</a><br>
-                        <span class="bfam-li-t">ကျွန်ုပ်တို့ ယခုကျိန်ခြင်းအမင်္ဂလာအောက်တွင် အသက်ရှင်နေကြရသည်</span>
-                </li>
-                <li class="bfam-li"> 
-                    <a href="" class="bfam-a">
-                        <span class="bfam-li-num">၁-၅</span>ရွေးကောက်ခြင်းခံရသောမိသားစု</a><br>
-                        <span class="bfam-li-t">အာဗြဟံနှင့်အတူ ဘုရားသခင်၏အထူးမိတ်သဟာယဖွဲ့ခြင်း</span>
-                </li>
-                <li class="bfam-li"> 
-                    <a href="" class="bfam-a">
-                        <span class="bfam-li-num">၁-၆</span>ဘုရားသခင်သည် အာဗြဟံအား စစ်ဆေးသည်</a><br>
-                        <span class="bfam-li-t">ဘုရားသခင်အား အာဗြဟံနာခံခဲ့သည်</span>
-                </li>
-                <li class="bfam-li"> 
-                    <a href="" class="bfam-a">
-                        <span class="bfam-li-num">၁-၇</span>သေပြီးနောက်တွင် ရှင်သန်မှုဘဝရှိဦးမည်</a><br>
-                        <span class="bfam-li-t">သေပြီးနောက် ရှင်သန်မှုမှာ ကောင်းကင်နိုင်ငံ(သို့) ငရဲတွင် ဖြစ်လိမ့်မည်</span>
-                </li>
-                <li class="bfam-li"> 
-                    <a href="" class="bfam-a">
-                        <span class="bfam-li-num">၁-၈</span>ယေရှုခရစ်တော်</a><br>
-                        <span class="bfam-li-t">အကယ်စင်စစ် ဘုရားဖြစ်တော်မူ၍ လူသားစင်စစ်လည်းဖြစ်သည်</span>
-                </li>
-                <li class="bfam-li"> 
-                    <a href="" class="bfam-a">
-                        <span class="bfam-li-num">၁-၉</span>လူအမျိုးမျိုးအတွက် ဘုရားသခင်၏ပြန်လည်သင့်မြတ်ခြင်းအစီအစဉ်</a><br>
-                        <span class="bfam-li-t">အပြစ်အတွက် အပြစ်ဒဏ်ကိုခံယူပြီး မိတ်သဟာယကိုပြန်လည်ရယူခြင်း</span>
-                </li>
-                <li class="bfam-li"> 
-                    <a href="" class="bfam-a">
-                        <span class="bfam-li-num">၁-၁၀</span> ယေရှုသည် သေခြင်းတရားကို အောင်မြင်ခဲ့သည်</a><br>
-                        <span class="bfam-li-t">သူ၏ရှင်ပြန်ထမြောက်ခြင်းသည် သူမည်သူဖြစ်ကြောင်း သက်သေပြခဲ့သည်</span>
-                </li>
-                <li class="bfam-li"> 
-                    <a href="" class="bfam-a">
-                        <span class="bfam-li-num">၁-၁၁</span>ကယ်တင်ခြင်းခံရဖို့ရန် ကျွန်ုပ်ဘာလုပ်ဆောင်ရမလဲ</a><br>
-                        <span class="bfam-li-t">ယုံကြည်ပါ</span>
-                </li>
-                <li class="bfam-li"> 
-                    <a href="" class="bfam-a">
-                        <span class="bfam-li-num">၁-၁၂</span>ဘုရားသခင်၏မေတ္တာတော်အား ကျွန်ုပ်တို့မည်ကဲ့သို့တုန်ပြန်မလဲ</a><br>
-                        <span class="bfam-li-t">နောင်တရပါ</span>
-                </li>
-                <li class="bfam-li"> 
-                    <a href="" class="bfam-a">
-                        <span class="bfam-li-num">၁-၁၃</span>ကျွန်ုပ်သည် ယေရှု၏မိတ်ဆွေဖြစ်သည်</a><br>
-                        <span class="bfam-li-t">ခရစ်တော်၏မိန့်တော်မူသမျှကို နာခံခြင်းအားဖြင့် သူ၏မေတ္တာ၌ကျွန်ုပ်တည်နေ၏</span>
-                </li>
-            </ul>
+            <div class="row">
+                <div class="col-md-10">
+                    <ul class="bfam-ul">သင်ခန်းစာများ-
+                    <li class="bfam-li"> 
+                        <a href="{{route('con_1-1')}}" class="bfam-a">
+                            <span class="bfam-li-num">၁-၁</span> ကောင်းကင်နှင့်မြေကြီးကိုဖန်ဆင်းတော်မူသော ဘုရားသခင် </a><br>
+                            <span class="bfam-li-t">ဘုရားသခင်သည် အရာခပ်သိမ်းကို ဖန်ဆင်းတော်မူ၏</span>
+                    </li>
+                    <li class="bfam-li"> 
+                        <a href="{{route('con_1-2')}}" class="bfam-a">
+                            <span class="bfam-li-num">၁-၂</span> လူကိုအထူးဖန်ဆင်းခြင်း</a><br>
+                            <span class="bfam-li-t">ဘုရားသခင်နှင့်၎င်း၊ မိမိတို့အချင်းချင်းနှင့်၎င်း အထူးမိတ်သဟာယဖွဲ့ရန် ဖန်ဆင်းခဲ့သည်</span>
+                    </li>
+                    <li class="bfam-li"> 
+                        <a href="{{route('con_1-3')}}" class="bfam-a">
+                            <span class="bfam-li-num">၁-၃</span>လိမ်လည်လှည့်ဖြားသူ 'စာတန်'</a><br>
+                            <span class="bfam-li-t">သူခိုးသည် ခိုးခြင်း၊ သတ်ခြင်းနှင့် ဖျက်ဆီးခြင်းငှါလာသည်</span>
+                    </li>
+                    <li class="bfam-li"> 
+                        <a href="" class="bfam-a">
+                            <span class="bfam-li-num">၁-၄</span> အာဒံနှင့်ဧဝ ဘုရားသခင်အား မနာခံခဲ့ပါ</a><br>
+                            <span class="bfam-li-t">ကျွန်ုပ်တို့ ယခုကျိန်ခြင်းအမင်္ဂလာအောက်တွင် အသက်ရှင်နေကြရသည်</span>
+                    </li>
+                    <li class="bfam-li"> 
+                        <a href="" class="bfam-a">
+                            <span class="bfam-li-num">၁-၅</span>ရွေးကောက်ခြင်းခံရသောမိသားစု</a><br>
+                            <span class="bfam-li-t">အာဗြဟံနှင့်အတူ ဘုရားသခင်၏အထူးမိတ်သဟာယဖွဲ့ခြင်း</span>
+                    </li>
+                    <li class="bfam-li"> 
+                        <a href="" class="bfam-a">
+                            <span class="bfam-li-num">၁-၆</span>ဘုရားသခင်သည် အာဗြဟံအား စစ်ဆေးသည်</a><br>
+                            <span class="bfam-li-t">ဘုရားသခင်အား အာဗြဟံနာခံခဲ့သည်</span>
+                    </li>
+                    <li class="bfam-li"> 
+                        <a href="" class="bfam-a">
+                            <span class="bfam-li-num">၁-၇</span>သေပြီးနောက်တွင် ရှင်သန်မှုဘဝရှိဦးမည်</a><br>
+                            <span class="bfam-li-t">သေပြီးနောက် ရှင်သန်မှုမှာ ကောင်းကင်နိုင်ငံ(သို့) ငရဲတွင် ဖြစ်လိမ့်မည်</span>
+                    </li>
+                    <li class="bfam-li"> 
+                        <a href="" class="bfam-a">
+                            <span class="bfam-li-num">၁-၈</span>ယေရှုခရစ်တော်</a><br>
+                            <span class="bfam-li-t">အကယ်စင်စစ် ဘုရားဖြစ်တော်မူ၍ လူသားစင်စစ်လည်းဖြစ်သည်</span>
+                    </li>
+                    <li class="bfam-li"> 
+                        <a href="" class="bfam-a">
+                            <span class="bfam-li-num">၁-၉</span>လူအမျိုးမျိုးအတွက် ဘုရားသခင်၏ပြန်လည်သင့်မြတ်ခြင်းအစီအစဉ်</a><br>
+                            <span class="bfam-li-t">အပြစ်အတွက် အပြစ်ဒဏ်ကိုခံယူပြီး မိတ်သဟာယကိုပြန်လည်ရယူခြင်း</span>
+                    </li>
+                    <li class="bfam-li"> 
+                        <a href="" class="bfam-a">
+                            <span class="bfam-li-num">၁-၁၀</span> ယေရှုသည် သေခြင်းတရားကို အောင်မြင်ခဲ့သည်</a><br>
+                            <span class="bfam-li-t">သူ၏ရှင်ပြန်ထမြောက်ခြင်းသည် သူမည်သူဖြစ်ကြောင်း သက်သေပြခဲ့သည်</span>
+                    </li>
+                    <li class="bfam-li"> 
+                        <a href="" class="bfam-a">
+                            <span class="bfam-li-num">၁-၁၁</span>ကယ်တင်ခြင်းခံရဖို့ရန် ကျွန်ုပ်ဘာလုပ်ဆောင်ရမလဲ</a><br>
+                            <span class="bfam-li-t">ယုံကြည်ပါ</span>
+                    </li>
+                    <li class="bfam-li"> 
+                        <a href="" class="bfam-a">
+                            <span class="bfam-li-num">၁-၁၂</span>ဘုရားသခင်၏မေတ္တာတော်အား ကျွန်ုပ်တို့မည်ကဲ့သို့တုန်ပြန်မလဲ</a><br>
+                            <span class="bfam-li-t">နောင်တရပါ</span>
+                    </li>
+                    <li class="bfam-li"> 
+                        <a href="" class="bfam-a">
+                            <span class="bfam-li-num">၁-၁၃</span>ကျွန်ုပ်သည် ယေရှု၏မိတ်ဆွေဖြစ်သည်</a><br>
+                            <span class="bfam-li-t">ခရစ်တော်၏မိန့်တော်မူသမျှကို နာခံခြင်းအားဖြင့် သူ၏မေတ္တာ၌ကျွန်ုပ်တည်နေ၏</span>
+                    </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <a href="{{route('con_1-1')}}" class="bfam-ls-btn1">လေ့လာမည် ၁-၁</a>
+                    <a href="" class="bfam-ls-btn2">လေ့လာမည် ၁-၂</a>
+                    <a href="" class="bfam-ls-btn3">လေ့လာမည် ၁-၃</a>
+                    <a href="" class="bfam-ls-btn4">လေ့လာမည် ၁-၄</a>
+                    <a href="" class="bfam-ls-btn5">လေ့လာမည် ၁-၅</a>
+                    <a href="" class="bfam-ls-btn6">လေ့လာမည် ၁-၆</a>
+                    <a href="" class="bfam-ls-btn7">လေ့လာမည် ၁-၇</a>
+                    <a href="" class="bfam-ls-btn8">လေ့လာမည် ၁-၈</a>
+                    <a href="" class="bfam-ls-btn9">လေ့လာမည် ၁-၉</a>
+                    <a href="" class="bfam-ls-btn10">လေ့လာမည် ၁-၁၀</a>
+                    <a href="" class="bfam-ls-btn11">လေ့လာမည် ၁-၁၁</a>
+                    <a href="" class="bfam-ls-btn12">လေ့လာမည် ၁-၁၂</a>
+                    <a href="" class="bfam-ls-btn13">လေ့လာမည် ၁-၁၃</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="tab-pane fade" id="bfam-2" role="tabpanel" aria-labelledby="bfam-2">
