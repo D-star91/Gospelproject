@@ -87,13 +87,13 @@
                                         <a href="{{route('gen_1')}}" class="btn-bv">၁</a>
                                         <a href="{{route('gen_2')}}" class="btn-bv">၂</a>
                                         <a href="{{route('gen_3')}}" class="btn-bv">၃</a>
-                                        <a href="" class="btn-bv">၄</a>
-                                        <a href="" class="btn-bv">၅</a>
-                                        <a href="" class="btn-bv">၆</a>
-                                        <a href="" class="btn-bv">၇</a>
-                                        <a href="" class="btn-bv">၈</a>
-                                        <a href="" class="btn-bv">၉</a>
-                                        <a href="" class="btn-bv">၁၀</a>
+                                        <a href="{{route('gen_4')}}" class="btn-bv">၄</a>
+                                        <a href="{{route('gen_5')}}" class="btn-bv">၅</a>
+                                        <a href="{{route('gen_6')}}" class="btn-bv">၆</a>
+                                        <a href="{{route('gen_7')}}" class="btn-bv">၇</a>
+                                        <a href="{{route('gen_8')}}" class="btn-bv">၈</a>
+                                        <a href="{{route('gen_9')}}" class="btn-bv">၉</a>
+                                        <a href="{{route('gen_10')}}" class="btn-bv">၁၀</a>
                                       </div>
                                       <div class="btn-group me-0 my-2" role="group" aria-label="First group">
                                           <a href="" class="btn-bv">၁၁</a>

@@ -32,6 +32,9 @@ Route::get("/bible/old/genesis_4",[Biblecontroller::class,('Genesis_4')])->name(
 Route::get("/bible/old/genesis_5",[Biblecontroller::class,('Genesis_5')])->name('gen_5');
 Route::get("/bible/old/genesis_6",[Biblecontroller::class,('Genesis_6')])->name('gen_6');
 Route::get("/bible/old/genesis_7",[Biblecontroller::class,('Genesis_7')])->name('gen_7');
+Route::get("/bible/old/genesis_8",[Biblecontroller::class,('Genesis_8')])->name('gen_8');
+Route::get("/bible/old/genesis_9",[Biblecontroller::class,('Genesis_9')])->name('gen_9');
+Route::get("/bible/old/genesis_10",[Biblecontroller::class,('Genesis_10')])->name('gen_10');
 // Bibl Study
 // gust
 Route::get("/study_home",[Studycontroller::class,('Study_Home')])->name('study_home');
