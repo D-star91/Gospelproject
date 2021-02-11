@@ -92,58 +92,58 @@
                                                               <a href="{{route('gen_4')}}" class="btn-bv">၄</a>
                                                               <a href="{{route('gen_5')}}" class="btn-bv">၅</a>
                                                               <a href="{{route('gen_6')}}" class="btn-bv">၆</a>
-                                                              <a href="" class="btn-bv">၇</a>
-                                                              <a href="" class="btn-bv">၈</a>
-                                                              <a href="" class="btn-bv">၉</a>
-                                                              <a href="" class="btn-bv">၁၀</a>
+                                                              <a href="{{route('gen_7')}}" class="btn-bv">၇</a>
+                                                              <a href="{{route('gen_8')}}" class="btn-bv">၈</a>
+                                                              <a href="{{route('gen_9')}}" class="btn-bv">၉</a>
+                                                              <a href="{{route('gen_10')}}" class="btn-bv">၁၀</a>
                                                             </div>
                                                             <div class="btn-group me-0 my-2" role="group" aria-label="First group">
-                                                                <a href="" class="btn-bv">၁၁</a>
-                                                                <a href="" class="btn-bv">၁၂</a>
-                                                                <a href="" class="btn-bv">၁၃</a>
-                                                                <a href="" class="btn-bv">၁၄</a>
-                                                                <a href="" class="btn-bv">၁၅</a>
-                                                                <a href="" class="btn-bv">၁၆</a>
-                                                                <a href="" class="btn-bv">၁၇</a>
-                                                                <a href="" class="btn-bv">၁၈</a>
-                                                                <a href="" class="btn-bv">၁၉</a>
-                                                                <a href="" class="btn-bv">၂၀</a>
+                                                                <a href="{{route('gen_11')}}" class="btn-bv">၁၁</a>
+                                                                <a href="{{route('gen_12')}}" class="btn-bv">၁၂</a>
+                                                                <a href="{{route('gen_13')}}" class="btn-bv">၁၃</a>
+                                                                <a href="{{route('gen_14')}}" class="btn-bv">၁၄</a>
+                                                                <a href="{{route('gen_15')}}" class="btn-bv">၁၅</a>
+                                                                <a href="{{route('gen_16')}}" class="btn-bv">၁၆</a>
+                                                                <a href="{{route('gen_17')}}" class="btn-bv">၁၇</a>
+                                                                <a href="{{route('gen_18')}}" class="btn-bv">၁၈</a>
+                                                                <a href="{{route('gen_19')}}" class="btn-bv">၁၉</a>
+                                                                <a href="{{route('gen_20')}}" class="btn-bv">၂၀</a>
                                                               </div>
                                                               <div class="btn-group me-0 my-2" role="group" aria-label="First group">
-                                                                <a href="" class="btn-bv">၂၁</a>
-                                                                <a href="" class="btn-bv">၂၂</a>
-                                                                <a href="" class="btn-bv">၂၃</a>
-                                                                <a href="" class="btn-bv">၂၄</a>
-                                                                <a href="" class="btn-bv">၂၅</a>
-                                                                <a href="" class="btn-bv">၂၆</a>
-                                                                <a href="" class="btn-bv">၂၇</a>
-                                                                <a href="" class="btn-bv">၂၈</a>
-                                                                <a href="" class="btn-bv">၂၉</a>
-                                                                <a href="" class="btn-bv">၃၀</a>
+                                                                <a href="{{route('gen_21')}}" class="btn-bv">၂၁</a>
+                                                                <a href="{{route('gen_22')}}" class="btn-bv">၂၂</a>
+                                                                <a href="{{route('gen_23')}}" class="btn-bv">၂၃</a>
+                                                                <a href="{{route('gen_24')}}" class="btn-bv">၂၄</a>
+                                                                <a href="{{route('gen_25')}}" class="btn-bv">၂၅</a>
+                                                                <a href="{{route('gen_26')}}" class="btn-bv">၂၆</a>
+                                                                <a href="{{route('gen_27')}}" class="btn-bv">၂၇</a>
+                                                                <a href="{{route('gen_28')}}" class="btn-bv">၂၈</a>
+                                                                <a href="{{route('gen_29')}}" class="btn-bv">၂၉</a>
+                                                                <a href="{{route('gen_30')}}" class="btn-bv">၃၀</a>
                                                               </div>
                                                               <div class="btn-group me-0 my-2" role="group" aria-label="First group">
-                                                                <a href="" class="btn-bv">၃၁</a>
-                                                                <a href="" class="btn-bv">၃၂</a>
-                                                                <a href="" class="btn-bv">၃၃</a>
-                                                                <a href="" class="btn-bv">၃၄</a>
-                                                                <a href="" class="btn-bv">၃၅</a>
-                                                                <a href="" class="btn-bv">၃၆</a>
-                                                                <a href="" class="btn-bv">၃၇</a>
-                                                                <a href="" class="btn-bv">၃၈</a>
-                                                                <a href="" class="btn-bv">၃၉</a>
-                                                                <a href="" class="btn-bv">၄၀</a>
+                                                                <a href="{{route('gen_31')}}" class="btn-bv">၃၁</a>
+                                                                <a href="{{route('gen_32')}}" class="btn-bv">၃၂</a>
+                                                                <a href="{{route('gen_33')}}" class="btn-bv">၃၃</a>
+                                                                <a href="{{route('gen_34')}}" class="btn-bv">၃၄</a>
+                                                                <a href="{{route('gen_35')}}" class="btn-bv">၃၅</a>
+                                                                <a href="{{route('gen_36')}}" class="btn-bv">၃၆</a>
+                                                                <a href="{{route('gen_37')}}" class="btn-bv">၃၇</a>
+                                                                <a href="{{route('gen_38')}}" class="btn-bv">၃၈</a>
+                                                                <a href="{{route('gen_39')}}" class="btn-bv">၃၉</a>
+                                                                <a href="{{route('gen_40')}}" class="btn-bv">၄၀</a>
                                                               </div>
                                                               <div class="btn-group me-0 my-2" role="group" aria-label="First group">
-                                                                <a href="" class="btn-bv">၄၁</a>
-                                                                <a href="" class="btn-bv">၄၂</a>
-                                                                <a href="" class="btn-bv">၄၃</a>
-                                                                <a href="" class="btn-bv">၄၄</a>
-                                                                <a href="" class="btn-bv">၄၅</a>
-                                                                <a href="" class="btn-bv">၄၆</a>
-                                                                <a href="" class="btn-bv">၄၇</a>
-                                                                <a href="" class="btn-bv">၄၈</a>
-                                                                <a href="" class="btn-bv">၄၉</a>
-                                                                <a href="" class="btn-bv">၅၀</a>
+                                                                <a href="{{route('gen_41')}}" class="btn-bv">၄၁</a>
+                                                                <a href="{{route('gen_42')}}" class="btn-bv">၄၂</a>
+                                                                <a href="{{route('gen_43')}}" class="btn-bv">၄၃</a>
+                                                                <a href="{{route('gen_44')}}" class="btn-bv">၄၄</a>
+                                                                <a href="{{route('gen_45')}}" class="btn-bv">၄၅</a>
+                                                                <a href="{{route('gen_46')}}" class="btn-bv">၄၆</a>
+                                                                <a href="{{route('gen_47')}}" class="btn-bv">၄၇</a>
+                                                                <a href="{{route('gen_48')}}" class="btn-bv">၄၈</a>
+                                                                <a href="{{route('gen_49')}}" class="btn-bv">၄၉</a>
+                                                                <a href="{{route('gen_50')}}" class="btn-bv">၅၀</a>
                                                               </div>    
                                                         </div>
                                                     </div>
@@ -1930,52 +1930,52 @@
                                         <a href="{{route('gen_10')}}" class="btn-bv">၁၀</a>
                                         </div>
                                         <div class="btn-group me-0 my-2" role="group" aria-label="First group">
-                                            <a href="" class="btn-bv">၁၁</a>
-                                            <a href="" class="btn-bv">၁၂</a>
-                                            <a href="" class="btn-bv">၁၃</a>
-                                            <a href="" class="btn-bv">၁၄</a>
-                                            <a href="" class="btn-bv">၁၅</a>
-                                            <a href="" class="btn-bv">၁၆</a>
-                                            <a href="" class="btn-bv">၁၇</a>
-                                            <a href="" class="btn-bv">၁၈</a>
-                                            <a href="" class="btn-bv">၁၉</a>
-                                            <a href="" class="btn-bv">၂၀</a>
+                                            <a href="{{route('gen_11')}}" class="btn-bv">၁၁</a>
+                                            <a href="{{route('gen_12')}}" class="btn-bv">၁၂</a>
+                                            <a href="{{route('gen_13')}}" class="btn-bv">၁၃</a>
+                                            <a href="{{route('gen_14')}}" class="btn-bv">၁၄</a>
+                                            <a href="{{route('gen_15')}}" class="btn-bv">၁၅</a>
+                                            <a href="{{route('gen_16')}}" class="btn-bv">၁၆</a>
+                                            <a href="{{route('gen_17')}}" class="btn-bv">၁၇</a>
+                                            <a href="{{route('gen_18')}}" class="btn-bv">၁၈</a>
+                                            <a href="{{route('gen_19')}}" class="btn-bv">၁၉</a>
+                                            <a href="{{route('gen_20')}}" class="btn-bv">၂၀</a>
                                         </div>
                                         <div class="btn-group me-0 my-2" role="group" aria-label="First group">
-                                            <a href="" class="btn-bv">၂၁</a>
-                                            <a href="" class="btn-bv">၂၂</a>
-                                            <a href="" class="btn-bv">၂၃</a>
-                                            <a href="" class="btn-bv">၂၄</a>
-                                            <a href="" class="btn-bv">၂၅</a>
-                                            <a href="" class="btn-bv">၂၆</a>
-                                            <a href="" class="btn-bv">၂၇</a>
-                                            <a href="" class="btn-bv">၂၈</a>
-                                            <a href="" class="btn-bv">၂၉</a>
-                                            <a href="" class="btn-bv">၃၀</a>
+                                            <a href="{{route('gen_21')}}" class="btn-bv">၂၁</a>
+                                            <a href="{{route('gen_22')}}" class="btn-bv">၂၂</a>
+                                            <a href="{{route('gen_23')}}" class="btn-bv">၂၃</a>
+                                            <a href="{{route('gen_24')}}" class="btn-bv">၂၄</a>
+                                            <a href="{{route('gen_25')}}" class="btn-bv">၂၅</a>
+                                            <a href="{{route('gen_26')}}" class="btn-bv">၂၆</a>
+                                            <a href="{{route('gen_27')}}" class="btn-bv">၂၇</a>
+                                            <a href="{{route('gen_28')}}" class="btn-bv">၂၈</a>
+                                            <a href="{{route('gen_29')}}" class="btn-bv">၂၉</a>
+                                            <a href="{{route('gen_30')}}" class="btn-bv">၃၀</a>
                                         </div>
                                         <div class="btn-group me-0 my-2" role="group" aria-label="First group">
-                                            <a href="" class="btn-bv">၃၁</a>
-                                            <a href="" class="btn-bv">၃၂</a>
-                                            <a href="" class="btn-bv">၃၃</a>
-                                            <a href="" class="btn-bv">၃၄</a>
-                                            <a href="" class="btn-bv">၃၅</a>
-                                            <a href="" class="btn-bv">၃၆</a>
-                                            <a href="" class="btn-bv">၃၇</a>
-                                            <a href="" class="btn-bv">၃၈</a>
-                                            <a href="" class="btn-bv">၃၉</a>
-                                            <a href="" class="btn-bv">၄၀</a>
+                                            <a href="{{route('gen_31')}}" class="btn-bv">၃၁</a>
+                                            <a href="{{route('gen_32')}}" class="btn-bv">၃၂</a>
+                                            <a href="{{route('gen_33')}}" class="btn-bv">၃၃</a>
+                                            <a href="{{route('gen_34')}}" class="btn-bv">၃၄</a>
+                                            <a href="{{route('gen_35')}}" class="btn-bv">၃၅</a>
+                                            <a href="{{route('gen_36')}}" class="btn-bv">၃၆</a>
+                                            <a href="{{route('gen_37')}}" class="btn-bv">၃၇</a>
+                                            <a href="{{route('gen_38')}}" class="btn-bv">၃၈</a>
+                                            <a href="{{route('gen_39')}}" class="btn-bv">၃၉</a>
+                                            <a href="{{route('gen_40')}}" class="btn-bv">၄၀</a>
                                         </div>
                                         <div class="btn-group me-0 my-2" role="group" aria-label="First group">
-                                            <a href="" class="btn-bv">၄၁</a>
-                                            <a href="" class="btn-bv">၄၂</a>
-                                            <a href="" class="btn-bv">၄၃</a>
-                                            <a href="" class="btn-bv">၄၄</a>
-                                            <a href="" class="btn-bv">၄၅</a>
-                                            <a href="" class="btn-bv">၄၆</a>
-                                            <a href="" class="btn-bv">၄၇</a>
-                                            <a href="" class="btn-bv">၄၈</a>
-                                            <a href="" class="btn-bv">၄၉</a>
-                                            <a href="" class="btn-bv">၅၀</a>
+                                            <a href="{{route('gen_41')}}" class="btn-bv">၄၁</a>
+                                            <a href="{{route('gen_42')}}" class="btn-bv">၄၂</a>
+                                            <a href="{{route('gen_43')}}" class="btn-bv">၄၃</a>
+                                            <a href="{{route('gen_44')}}" class="btn-bv">၄၄</a>
+                                            <a href="{{route('gen_45')}}" class="btn-bv">၄၅</a>
+                                            <a href="{{route('gen_46')}}" class="btn-bv">၄၆</a>
+                                            <a href="{{route('gen_47')}}" class="btn-bv">၄၇</a>
+                                            <a href="{{route('gen_48')}}" class="btn-bv">၄၈</a>
+                                            <a href="{{route('gen_49')}}" class="btn-bv">၄၉</a>
+                                            <a href="{{route('gen_50')}}" class="btn-bv">၅၀</a>
                                         </div>    
                                     </div>
                                 </ul>
@@ -2060,7 +2060,7 @@ var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
                 </div>
                 <div class="col-md-2">
                     <div class="next-arrow">
-                        <a href="{{route('gen_10')}}" class="right-arr">
+                        <a href="{{route('gen_11')}}" class="right-arr">
                             <i class="fas fa-angle-double-right"></i>
                         </a>
                     </div>
