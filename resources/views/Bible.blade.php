@@ -978,15 +978,15 @@
                                                     <div class="tab-pane fade" id="list-ecclesiastes" role="tabpanel" aria-labelledby="list-ecclesiastes-list">
                                                       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                                           <div class="btn-group me-0 my-2" role="group" aria-label="First group">
-                                                            <a href="{{route('eccl_11')}}" class="btn-bv">၁</a>
-                                                            <a href="{{route('eccl_12')}}" class="btn-bv">၂</a>
-                                                            <a href="{{route('eccl_13')}}" class="btn-bv">၃</a>
-                                                            <a href="{{route('eccl_14')}}" class="btn-bv">၄</a>
-                                                            <a href="{{route('eccl_15')}}" class="btn-bv">၅</a>
-                                                            <a href="{{route('eccl_16')}}" class="btn-bv">၆</a>
-                                                            <a href="{{route('eccl_17')}}" class="btn-bv">၇</a>
-                                                            <a href="{{route('eccl_18')}}" class="btn-bv">၈</a>
-                                                            <a href="{{route('eccl_19')}}" class="btn-bv">၉</a>
+                                                            <a href="{{route('eccl_1')}}" class="btn-bv">၁</a>
+                                                            <a href="{{route('eccl_2')}}" class="btn-bv">၂</a>
+                                                            <a href="{{route('eccl_3')}}" class="btn-bv">၃</a>
+                                                            <a href="{{route('eccl_4')}}" class="btn-bv">၄</a>
+                                                            <a href="{{route('eccl_5')}}" class="btn-bv">၅</a>
+                                                            <a href="{{route('eccl_6')}}" class="btn-bv">၆</a>
+                                                            <a href="{{route('eccl_7')}}" class="btn-bv">၇</a>
+                                                            <a href="{{route('eccl_8')}}" class="btn-bv">၈</a>
+                                                            <a href="{{route('eccl_9')}}" class="btn-bv">၉</a>
                                                             <a href="{{route('eccl_10')}}" class="btn-bv">၁၀</a>
                                                           </div>
                                                           <div class="btn-group me-0 my-2" role="group" aria-label="First group">
@@ -1408,7 +1408,7 @@
                                           <div class="row">
                                             <div class="col-4">
                                               <div class="list-group scrollspy-example" id="list-tab" role="tablist" data-mdb-spy="scroll" data-mdb-target="#scrollspy" data-mdb-offset="0">
-                                                <a class="list-group-item list-group-item-action active" id="list-matthew-list" data-bs-toggle="list" href="{{route('_10')}}#list-matthew" role="tab" aria-controls="matthew">ရှင်မဿဲခရစ်ဝင်</a>
+                                                <a class="list-group-item list-group-item-action active" id="list-matthew-list" data-bs-toggle="list" href="#list-matthew" role="tab" aria-controls="matthew">ရှင်မဿဲခရစ်ဝင်</a>
                                                 <a class="list-group-item list-group-item-action" id="list-mark-list" data-bs-toggle="list" href="#list-mark" role="tab" aria-controls="mark">ရှင်မာကုခရစ်ဝင်</a>
                                                 <a class="list-group-item list-group-item-action" id="list-luke-list" data-bs-toggle="list" href="#list-luke" role="tab" aria-controls="luke">ရှင်လုကာခရစ်ဝင်</a>
                                                 <a class="list-group-item list-group-item-action" id="list-john-list" data-bs-toggle="list" href="#list-john" role="tab" aria-controls="john">ရှင်ယောဟန်ခရစ်ဝင်</a>
@@ -1771,7 +1771,7 @@
                                                 <div class="tab-pane fade" id="list-philemon" role="tabpanel" aria-labelledby="list-philemon-list">
                                                   <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                                       <div class="btn-group me-0 my-2" role="group" aria-label="First group">
-                                                        <a href="{{route('phm_10')}}" class="btn-bv">၁</a>
+                                                        <a href="{{route('phm_1')}}" class="btn-bv">၁</a>
                                                       </div>
                                                   </div>
                                                 </div>
