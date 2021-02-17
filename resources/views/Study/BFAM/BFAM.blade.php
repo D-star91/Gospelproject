@@ -59,7 +59,7 @@
                             <span class="bfam-li-t">အာဗြဟံနှင့်အတူ ဘုရားသခင်၏အထူးမိတ်သဟာယဖွဲ့ခြင်း</span>
                     </li>
                     <li class="bfam-li"> 
-                        <a href="" class="bfam-a">
+                        <a href="{{route('con_1-6')}}" class="bfam-a">
                             <span class="bfam-li-num">၁-၆</span>ဘုရားသခင်သည် အာဗြဟံအား စစ်ဆေးသည်</a><br>
                             <span class="bfam-li-t">ဘုရားသခင်အား အာဗြဟံနာခံခဲ့သည်</span>
                     </li>
@@ -106,7 +106,7 @@
                     <a href="{{route('con_1-3')}}" class="bfam-ls-btn3">လေ့လာမည် ၁-၃</a>
                     <a href="{{route('con_1-4')}}" class="bfam-ls-btn4">လေ့လာမည် ၁-၄</a>
                     <a href="{{route('con_1-5')}}" class="bfam-ls-btn5">လေ့လာမည် ၁-၅</a>
-                    <a href="" class="bfam-ls-btn6">လေ့လာမည် ၁-၆</a>
+                    <a href="{{route('con_1-6')}}" class="bfam-ls-btn6">လေ့လာမည် ၁-၆</a>
                     <a href="" class="bfam-ls-btn7">လေ့လာမည် ၁-၇</a>
                     <a href="" class="bfam-ls-btn8">လေ့လာမည် ၁-၈</a>
                     <a href="" class="bfam-ls-btn9">လေ့လာမည် ၁-၉</a>
