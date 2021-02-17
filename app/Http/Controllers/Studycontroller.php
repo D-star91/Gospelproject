@@ -52,7 +52,7 @@ class Studycontroller extends Controller
     }
     // BFAM lesson_1
     function Con_1_1(){
-        return view('Study.BFAM.1.lesson_1');
+        return view('Study.BFAM.1.con_1');
     }
     function PostCon_1_1(){
        $validation=request()->validate([
@@ -100,7 +100,7 @@ class Studycontroller extends Controller
         }
     }
     function Con_1_2(){
-        return view('Study.BFAM.1.lesson_2');
+        return view('Study.BFAM.1.con_2');
     }
     function PostCon_1_2(){
         $validation=request()->validate([
@@ -136,10 +136,13 @@ class Studycontroller extends Controller
          }
      }
      function Con_1_3(){
-        return view('Study.BFAM.1.lesson_3');
+        return view('Study.BFAM.1.con_3');
     }
     function Con_1_4(){
-        return view('Study.BFAM.1.lesson_4');
+        return view('Study.BFAM.1.con_4');
+    }
+    function Con_1_5(){
+        return view('Study.BFAM.1.con_5');
     }
     // BFAM lesson_1
     // BFAM lesson
