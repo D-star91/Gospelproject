@@ -43,7 +43,10 @@ class Homecontroller extends Controller
     function Prayer(){
         return view('Prayer');
     }
-
+    // Book
+    function Book(){
+        return view('Book');
+    }
     // Sign up
     function Sign_up(){
         return view('Useraccount.Usersignup');

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOYAL</title>
+    <title>Loyal book</title>
     <!-- Allstyle -->
     <link rel="stylesheet" href="/style.css">
     <!-- Font Awesome -->
@@ -16,10 +16,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 
-<body>
-    <nav class="navbar navbar-light bg-warning">
+<body class="bg-secondary">
+    <nav class="navbar navbar-light bg-light">
         <a class="navbr-font-sty" href="">
-            <img src="{{asset('Image/loyallogo3.png')}}" height="45" alt="mdb logo" class="me-2 ms-5">LOYAL BIBLE
+            <img src="{{asset('Image/loyallogo3.png')}}" height="45" alt="mdb logo" class="me-2 ms-5">LOYAL Books
         </a>
       </nav>
         <!--Navbar -->
@@ -30,7 +30,7 @@
       </button>
       <div class="container">
         <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-            <ul class="navbar-nav me-auto">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
                     <a class="navbr-font-br me-0" href="{{route('index')}}">HOME
                       <span class="sr-only">(current)</span>
@@ -50,23 +50,24 @@
                 </li>
             </ul>
             
+          </div>
       </div>
     </nav>
     <script>
-     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
       var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
       })
+      var exampleEl = document.getElementById('example')
+      var tooltip = new bootstrap.Tooltip(exampleEl, {
+        boundary: 'window'
+      })
     </script>
     <script>
-        $('#myTab a').on('click', function (e) {
-            e.preventDefault()
-            $(this).tab('show')
-        })
-        $('#myTab a[href="#profile"]').tab('show') // Select tab by name
-        $('#myTab li:first-child a').tab('show') // Select first tab
-        $('#myTab li:last-child a').tab('show') // Select last tab
-        $('#myTab li:nth-child(3) a').tab('show') // Select third tab
+      var exampleEl = document.getElementById('example')
+      var tooltip = new bootstrap.Tooltip(exampleEl, {
+        boundary: 'window'
+      })
     </script>
     {{$slot}}
 
@@ -82,7 +83,7 @@
                     
                 </div>
                 <div class="col-md-5">
-                  <form class="row gy-2 gx-3 align-items-center my-4" action="{{route('subscribe')}}" method="POST">
+                <form class="row gy-2 gx-3 align-items-center my-4" action="{{route('subscribe')}}" method="POST">
                  @csrf
                     <div class="col-auto">
                       <input class="form-control " type="email" placeholder="Email address" aria-label="email" name="email">
@@ -101,7 +102,7 @@
         </div>
     </footer>
     <!-- MDB -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js"></script>
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>

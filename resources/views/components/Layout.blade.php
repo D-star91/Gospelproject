@@ -46,7 +46,7 @@
                     <a class="navbr-font-br me-0" href="{{route('prayer')}}">PRAYER</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="">BOOK</a>
+                    <a class="navbr-font-br me-0" href="{{route('book')}}">BOOK</a>
                 </li>
             </ul>
             

@@ -138,6 +138,9 @@ class Studycontroller extends Controller
      function Con_1_3(){
         return view('Study.BFAM.1.lesson_3');
     }
+    function Con_1_4(){
+        return view('Study.BFAM.1.lesson_4');
+    }
     // BFAM lesson_1
     // BFAM lesson
 }
