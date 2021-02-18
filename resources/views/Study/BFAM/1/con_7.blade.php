@@ -187,7 +187,7 @@
                                     <textarea rows="3" name="answer11" class="form-control mt-2" id="formGroupExampleInput" ></textarea>
                                 </div>
                     </div>
-                    <p class="bfam-ls-p2">သင်ခန်းစာများကို သေချာစွာလေ့လာပြီ မေးခွန်းများကိုသေချာစွာဖြေဆိုပေးပါ၊ သင်ခန်းစာများကိုလေ့လာပြီးနောက် "Submit" ကို နိုပ်ပြီး နောက်ထပ် သင်ခန်းစာ(၇) ကို
+                    <p class="bfam-ls-p2">သင်ခန်းစာများကို သေချာစွာလေ့လာပြီ မေးခွန်းများကိုသေချာစွာဖြေဆိုပေးပါ၊ သင်ခန်းစာများကိုလေ့လာပြီးနောက် "Submit" ကို နိုပ်ပြီး နောက်ထပ် သင်ခန်းစာ(၈) ကို
                         ဆက်လက်လေ့လာပါ။
                     </p>
                     <button class="bfam-ls-btn" type="submit">Submit</button>

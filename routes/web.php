@@ -41,6 +41,11 @@ Route::get('/bible_study/bfam/series/lesson_1_5',[Studycontroller::class,('Con_1
 Route::get('/bible_study/bfam/series/lesson_1_6',[Studycontroller::class,('Con_1_6')])->name('con_1-6');
 Route::get('/bible_study/bfam/series/lesson_1_7',[Studycontroller::class,('Con_1_7')])->name('con_1-7');
 Route::get('/bible_study/bfam/series/lesson_1_8',[Studycontroller::class,('Con_1_8')])->name('con_1-8');
+Route::get('/bible_study/bfam/series/lesson_1_9',[Studycontroller::class,('Con_1_9')])->name('con_1-9');
+Route::get('/bible_study/bfam/series/lesson_1_10',[Studycontroller::class,('Con_1_10')])->name('con_1-10');
+Route::get('/bible_study/bfam/series/lesson_1_11',[Studycontroller::class,('Con_1_11')])->name('con_1-11');
+Route::get('/bible_study/bfam/series/lesson_1_12',[Studycontroller::class,('Con_1_12')])->name('con_1-12');
+Route::get('/bible_study/bfam/series/lesson_1_13',[Studycontroller::class,('Con_1_13')])->name('con_1-13');
 // Sign up
 Route::get("/sign_up",[Homecontroller::class,('Sign_up')])->name('sign_up');
 Route::post("/sign_up",[Homecontroller::class,('User_Sign_up')])->name('user_sign_up');
