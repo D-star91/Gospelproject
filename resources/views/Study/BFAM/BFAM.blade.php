@@ -64,37 +64,37 @@
                             <span class="bfam-li-t">ဘုရားသခင်အား အာဗြဟံနာခံခဲ့သည်</span>
                     </li>
                     <li class="bfam-li"> 
-                        <a href="" class="bfam-a">
+                        <a href="{{route('con_1-7')}}" class="bfam-a">
                             <span class="bfam-li-num">၁-၇</span>သေပြီးနောက်တွင် ရှင်သန်မှုဘဝရှိဦးမည်</a><br>
                             <span class="bfam-li-t">သေပြီးနောက် ရှင်သန်မှုမှာ ကောင်းကင်နိုင်ငံ(သို့) ငရဲတွင် ဖြစ်လိမ့်မည်</span>
                     </li>
                     <li class="bfam-li"> 
-                        <a href="" class="bfam-a">
+                        <a href="{{route('con_1-8')}}" class="bfam-a">
                             <span class="bfam-li-num">၁-၈</span>ယေရှုခရစ်တော်</a><br>
                             <span class="bfam-li-t">အကယ်စင်စစ် ဘုရားဖြစ်တော်မူ၍ လူသားစင်စစ်လည်းဖြစ်သည်</span>
                     </li>
                     <li class="bfam-li"> 
-                        <a href="" class="bfam-a">
+                        <a href="{{route('con_1-8')}}" class="bfam-a">
                             <span class="bfam-li-num">၁-၉</span>လူအမျိုးမျိုးအတွက် ဘုရားသခင်၏ပြန်လည်သင့်မြတ်ခြင်းအစီအစဉ်</a><br>
                             <span class="bfam-li-t">အပြစ်အတွက် အပြစ်ဒဏ်ကိုခံယူပြီး မိတ်သဟာယကိုပြန်လည်ရယူခြင်း</span>
                     </li>
                     <li class="bfam-li"> 
-                        <a href="" class="bfam-a">
+                        <a href="{{route('con_1-8')}}" class="bfam-a">
                             <span class="bfam-li-num">၁-၁၀</span> ယေရှုသည် သေခြင်းတရားကို အောင်မြင်ခဲ့သည်</a><br>
                             <span class="bfam-li-t">သူ၏ရှင်ပြန်ထမြောက်ခြင်းသည် သူမည်သူဖြစ်ကြောင်း သက်သေပြခဲ့သည်</span>
                     </li>
                     <li class="bfam-li"> 
-                        <a href="" class="bfam-a">
+                        <a href="{{route('con_1-8')}}" class="bfam-a">
                             <span class="bfam-li-num">၁-၁၁</span>ကယ်တင်ခြင်းခံရဖို့ရန် ကျွန်ုပ်ဘာလုပ်ဆောင်ရမလဲ</a><br>
                             <span class="bfam-li-t">ယုံကြည်ပါ</span>
                     </li>
                     <li class="bfam-li"> 
-                        <a href="" class="bfam-a">
+                        <a href="{{route('con_1-8')}}" class="bfam-a">
                             <span class="bfam-li-num">၁-၁၂</span>ဘုရားသခင်၏မေတ္တာတော်အား ကျွန်ုပ်တို့မည်ကဲ့သို့တုန်ပြန်မလဲ</a><br>
                             <span class="bfam-li-t">နောင်တရပါ</span>
                     </li>
                     <li class="bfam-li"> 
-                        <a href="" class="bfam-a">
+                        <a href="{{route('con_1-8')}}" class="bfam-a">
                             <span class="bfam-li-num">၁-၁၃</span>ကျွန်ုပ်သည် ယေရှု၏မိတ်ဆွေဖြစ်သည်</a><br>
                             <span class="bfam-li-t">ခရစ်တော်၏မိန့်တော်မူသမျှကို နာခံခြင်းအားဖြင့် သူ၏မေတ္တာ၌ကျွန်ုပ်တည်နေ၏</span>
                     </li>
@@ -107,13 +107,13 @@
                     <a href="{{route('con_1-4')}}" class="bfam-ls-btn4">လေ့လာမည် ၁-၄</a>
                     <a href="{{route('con_1-5')}}" class="bfam-ls-btn5">လေ့လာမည် ၁-၅</a>
                     <a href="{{route('con_1-6')}}" class="bfam-ls-btn6">လေ့လာမည် ၁-၆</a>
-                    <a href="" class="bfam-ls-btn7">လေ့လာမည် ၁-၇</a>
-                    <a href="" class="bfam-ls-btn8">လေ့လာမည် ၁-၈</a>
-                    <a href="" class="bfam-ls-btn9">လေ့လာမည် ၁-၉</a>
-                    <a href="" class="bfam-ls-btn10">လေ့လာမည် ၁-၁၀</a>
-                    <a href="" class="bfam-ls-btn11">လေ့လာမည် ၁-၁၁</a>
-                    <a href="" class="bfam-ls-btn12">လေ့လာမည် ၁-၁၂</a>
-                    <a href="" class="bfam-ls-btn13">လေ့လာမည် ၁-၁၃</a>
+                    <a href="{{route('con_1-7')}}" class="bfam-ls-btn7">လေ့လာမည် ၁-၇</a>
+                    <a href="{{route('con_1-8')}}" class="bfam-ls-btn8">လေ့လာမည် ၁-၈</a>
+                    <a href="{{route('con_1-8')}}" class="bfam-ls-btn9">လေ့လာမည် ၁-၉</a>
+                    <a href="{{route('con_1-8')}}" class="bfam-ls-btn10">လေ့လာမည် ၁-၁၀</a>
+                    <a href="{{route('con_1-8')}}" class="bfam-ls-btn11">လေ့လာမည် ၁-၁၁</a>
+                    <a href="{{route('con_1-8')}}" class="bfam-ls-btn12">လေ့လာမည် ၁-၁၂</a>
+                    <a href="{{route('con_1-8')}}" class="bfam-ls-btn13">လေ့လာမည် ၁-၁၃</a>
                 </div>
             </div>
         </div>

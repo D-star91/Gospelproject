@@ -40,6 +40,7 @@ Route::get('/bible_study/bfam/series/lesson_1_4',[Studycontroller::class,('Con_1
 Route::get('/bible_study/bfam/series/lesson_1_5',[Studycontroller::class,('Con_1_5')])->name('con_1-5');
 Route::get('/bible_study/bfam/series/lesson_1_6',[Studycontroller::class,('Con_1_6')])->name('con_1-6');
 Route::get('/bible_study/bfam/series/lesson_1_7',[Studycontroller::class,('Con_1_7')])->name('con_1-7');
+Route::get('/bible_study/bfam/series/lesson_1_8',[Studycontroller::class,('Con_1_8')])->name('con_1-8');
 // Sign up
 Route::get("/sign_up",[Homecontroller::class,('Sign_up')])->name('sign_up');
 Route::post("/sign_up",[Homecontroller::class,('User_Sign_up')])->name('user_sign_up');
