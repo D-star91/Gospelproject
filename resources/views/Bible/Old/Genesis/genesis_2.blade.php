@@ -1996,11 +1996,12 @@ var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-2">
-                <div class="prev-arrow">
+                  <div class="prev-arrow">
                         <a href="{{route('gen_1')}}" class="right-arr">
                             <i class="fas fa-angle-double-left"></i>
                         </a>
-                    </div></div>
+                  </div>
+                </div>
                 <div class="col-md-6">
                     <div class="chapter scrollspy-example-2" data-mdb-spy="scroll" data-mdb-target="#scrollspy" data-mdb-offset="0">
                         <h3 class="ch-1">ကမ္ဘာဦးကျမ်း - <span class="ch-2">၂</span> </h3>
