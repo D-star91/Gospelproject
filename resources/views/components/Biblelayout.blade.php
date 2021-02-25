@@ -49,7 +49,23 @@
                     <a class="navbr-font-br me-0" href="{{route('book')}}">BOOK</a>
                 </li>
             </ul>
-            
+            <ul class="navbar-nav ms-auto nav-flex-icons">
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="navbr-font-br" href="" >
+                    {{auth()->user()->name}}
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a href="{{route('profile')}}" class="navbr-font-br" data-bs-toggle="tooltip" data-bs-placement="top" title="Profile">
+                    <i class="fas fa-user-circle"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a href="{{route('logout')}}" class="navbr-font-br" data-bs-toggle="tooltip" data-bs-placement="top" title="Logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                   </a>
+                </li>
+              </ul>
       </div>
     </nav>
     <script>
