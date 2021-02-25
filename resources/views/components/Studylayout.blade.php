@@ -32,7 +32,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
              <ul class="navbar-nav ml-auto me-auto">
                 <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('index')}}">HOME
+                    <a class="navbr-font-br me-0" href="{{route('home')}}">HOME
                       <span class="sr-only">(current)</span>
                     </a>
                 </li>

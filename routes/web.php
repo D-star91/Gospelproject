@@ -6,29 +6,43 @@ use App\Http\Controllers\Prayercontroller;
 use App\Http\Controllers\Studycontroller;
 use Illuminate\Support\Facades\Route;
 
-Route::get("/",[Homecontroller::class,('index')])->name('index');
+
 
 // Subscribe
 Route::post("/",[Homecontroller::class,('Subscribe')])->name('subscribe');
 Route::get('/received',[Homecontroller::class,('Received')])->name('received');
 
-Route::get("/contact",[Homecontroller::class,('Contact')])->name('contact');
-Route::get("/about",[Homecontroller::class,('About')])->name('about');
-Route::get("/book",[Homecontroller::class,('Book')])->name('book');
+Route::middleware('guest')->group(function(){
+    Route::get("/home",[Homecontroller::class,('index')])->name('index');
+    Route::get("/sign_up",[Homecontroller::class,('Sign_up')])->name('sign_up');
+    Route::post("/sign_up",[Homecontroller::class,('User_Sign_up')])->name('user_sign_up');
+    // login
+    Route::get("/login",[Homecontroller::class,('Login')])->name('login');
+    Route::post("/login",[Homecontroller::class,('User_Login')])->name('user_login');
+    
+
+});
+    // Sign up
 
 
-// Loguout
-Route::get("/logout",[Homecontroller::class,('Logout')])->name('logout');
+
 // User acc
 
 // Bibl Study
 // gust
 Route::get("/study_home",[Studycontroller::class,('Study_Home')])->name('study_home');
 // user
+Route::middleware('auth')->group(function(){
+Route::get("/",[Homecontroller::class,('LoyalHome')])->name('home');
 Route::get("/bible_study",[Studycontroller::class,('Study_user')])->name('study_user');
 Route::get("/bible_study/lesson",[Studycontroller::class,('Lesson')])->name('lesson');
 Route::get("/bible_study/profile",[Studycontroller::class,('Profile')])->name('profile');
 Route::post("/bible_study/profile",[Studycontroller::class,('Pro_update')])->name('pro_update');
+// Loguout
+Route::get("/logout",[Homecontroller::class,('Logout')])->name('logout');
+Route::get("/contact",[Homecontroller::class,('Contact')])->name('contact');
+Route::get("/about",[Homecontroller::class,('About')])->name('about');
+Route::get("/book",[Homecontroller::class,('Book')])->name('book');
 // Lesson
 Route::get('/bible_study/bfam',[Studycontroller::class,('BFAM')])->name('bfam');
 Route::get('/bible_study/bfam/series/lesson_1_1',[Studycontroller::class,('Con_1_1')])->name('con_1-1');
@@ -46,13 +60,6 @@ Route::get('/bible_study/bfam/series/lesson_1_10',[Studycontroller::class,('Con_
 Route::get('/bible_study/bfam/series/lesson_1_11',[Studycontroller::class,('Con_1_11')])->name('con_1-11');
 Route::get('/bible_study/bfam/series/lesson_1_12',[Studycontroller::class,('Con_1_12')])->name('con_1-12');
 Route::get('/bible_study/bfam/series/lesson_1_13',[Studycontroller::class,('Con_1_13')])->name('con_1-13');
-// Sign up
-Route::get("/sign_up",[Homecontroller::class,('Sign_up')])->name('sign_up');
-Route::post("/sign_up",[Homecontroller::class,('User_Sign_up')])->name('user_sign_up');
-// login
-Route::get("/login",[Homecontroller::class,('Login')])->name('login');
-Route::post("/login",[Homecontroller::class,('User_Login')])->name('user_login');
-
 
 // Prayer
 Route::get("/prayer",[Prayercontroller::class,('Prayer')])->name('prayer');
@@ -1387,4 +1394,10 @@ Route::get("/bible/new/revelation_21",[Biblecontroller::class,('Revelation_21')]
 Route::get("/bible/new/revelation_22",[Biblecontroller::class,('Revelation_22')])->name('rev_22');
 // Revelation
 // New Testamets
+});
+
+
+
+
+
 
