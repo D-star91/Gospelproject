@@ -24,16 +24,16 @@ Route::middleware('guest')->group(function(){
 });
     // Sign up
 
-
-
 // User acc
 
+
+// user
+Route::middleware('auth')->group(function(){
+
+Route::get("/",[Homecontroller::class,('LoyalHome')])->name('home');
 // Bibl Study
 // gust
 Route::get("/study_home",[Studycontroller::class,('Study_Home')])->name('study_home');
-// user
-Route::middleware('auth')->group(function(){
-Route::get("/",[Homecontroller::class,('LoyalHome')])->name('home');
 Route::get("/bible_study",[Studycontroller::class,('Study_user')])->name('study_user');
 Route::get("/bible_study/lesson",[Studycontroller::class,('Lesson')])->name('lesson');
 Route::get("/bible_study/profile",[Studycontroller::class,('Profile')])->name('profile');
@@ -68,6 +68,10 @@ Route::post("/prayer",[Prayercontroller::class,('Prayer_form')])->name('prayer_f
 
 // Bible
 Route::get("/bible",[Biblecontroller::class,('Bible_Home')])->name('bible_home');
+// Verses
+Route::get("/bible/verse",[Biblecontroller::class,('Verses')])->name('verse');
+Route::get("/bible/vpost",[Biblecontroller::class,('Vpost')])->name('vpost');
+Route::post("/bible/vpost",[Biblecontroller::class,('Verpost')])->name('verpost');
 // Old Testamets
 // Genesis
 Route::get("/bible/old/genesis_1",[Biblecontroller::class,('Genesis_1')])->name('gen_1');

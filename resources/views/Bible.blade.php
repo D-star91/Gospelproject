@@ -1916,17 +1916,16 @@
                   src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
                   class="img-fluid"
                 />
-                <a href="#!">
+                <a href="{{route('verse')}}">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
                 </a>
               </div>
               <div class="card-body">
                 <h5 class="card-title">VERSES</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
+                  နေ့စဉ် ကျမ်းပိုဒ်များကို အလွတ်ကျက်မှတ်ခြင်းဖြင့် ဘုရားသခင်၏နှုတ်ကပတ်တော်နှင့်ပိုမိုရင်းနှီးကျွမ်းဝင်စေပါ။
                 </p>
-                <a href="#!" class="btn btn-primary">Button</a>
+                <a href="{{route('verse')}}" class="btn btn-primary">Button</a>
               </div>
             </div>
           </div>

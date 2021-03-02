@@ -40,7 +40,7 @@
                     <a class="navbr-font-br me-0" href="{{route('bible_home')}}">BIBLE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbr-font-br me-0" href="{{route('study_home')}}">STUDY</a>
+                    <a class="navbr-font-br me-0" href="{{route('study_user')}}">STUDY</a>
                 </li>
                 <li class="nav-item">
                     <a class="navbr-font-br me-0" href="{{route('prayer')}}">PRAYER</a>

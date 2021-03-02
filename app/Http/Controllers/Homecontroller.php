@@ -58,7 +58,6 @@ class Homecontroller extends Controller
         $validation=request()->validate([
             "username"=>"required",
             "useremail"=>"required",
-            "userphone"=>"required",
             "userpassword"=>"required||min:8",
         ]);
         if($validation){
@@ -66,7 +65,6 @@ class Homecontroller extends Controller
             $user=new User();
             $user->name=$validation['username'];
             $user->email=$validation['useremail'];
-            $user->phone=$validation['userphone'];
             $user->password=Hash::make($password);
             $user->save();
             if(Auth::attempt(["email"=>request('useremail'),'password'=>request('userpassword')])){

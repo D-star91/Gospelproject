@@ -17,10 +17,6 @@
                               <label class="form-label" for="form3Example3">Email address</label>
                             </div>
                             <div class="form-outline mb-4">
-                                <input type="tel" id="typePhone" class="form-control" name="userphone"/>
-                                <label class="form-label" for="typePhone">Phone number</label>
-                            </div>
-                            <div class="form-outline mb-4">
                               <input type="password" id="form3Example4" class="form-control" name="userpassword"/>
                               <label class="form-label" for="form3Example4">Password</label>
                             </div>

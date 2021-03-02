@@ -12,9 +12,6 @@ class Studycontroller extends Controller
     function Study_user(){
         return view('Study');
     }
-    function Study_Home(){
-        return view('Useraccount.Studyuser');
-    }
     function Lesson(){
         return view('Study.lesson');
     }

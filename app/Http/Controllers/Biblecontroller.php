@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Vpost;
 use Illuminate\Http\Request;
 
 class Biblecontroller extends Controller
@@ -9,7 +10,32 @@ class Biblecontroller extends Controller
     function Bible_Home(){
         return view('Bible');
     }
-
+    // verses
+    function Verses(){
+        $vposts=Vpost::latest()->paginate(1);
+        return view('Bible.Verses.dailyverses',['vposts'=>$vposts]);
+    }
+    function Vpost(){
+        return view('Bible.Verses.vepost');
+    }
+    function Verpost(){
+        $validation=request()->validate([
+            "verse"=>"required",
+            "vpost"=>"required",
+        ]);
+        if($validation){
+            $verse=request('verse');
+            $vpost=request('vpost');
+            
+            $vepost=new Vpost();
+            $vepost->verse=$verse;
+            $vepost->post=$vpost;
+            $vepost->save();
+            return redirect()->route("verse");
+        }else{
+            return back()->withErrors($validation);
+        }
+    }
     // Old Testaments
     // Genesis
     function Genesis_1(){return view('Bible.Old.Genesis.genesis_1');}
