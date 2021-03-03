@@ -12,7 +12,7 @@
                 <div class="col-md-4">
                     <div class="v-menu">
                         <ul>
-                            <li></li>
+                            <li>ယုံကြည်ခြင်း</li>
                             <li></li>
                             <li></li>
                             <li></li>
@@ -67,7 +67,7 @@
                               <p class="card-text">{{$vpost['post']}}</p>
                               
                             </div>
-                            <a href="" class="mx-auto">See All</a>
+                            <a href="{{route('allverse')}}" class="mx-auto">See All</a>
                           </div>
                           @endforeach
                     </div>

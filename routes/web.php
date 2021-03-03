@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admincontroller;
 use App\Http\Controllers\Biblecontroller;
 use App\Http\Controllers\Homecontroller;
 use App\Http\Controllers\Prayercontroller;
@@ -30,6 +31,13 @@ Route::middleware('guest')->group(function(){
 // user
 Route::middleware('auth')->group(function(){
 
+// Adminpage
+Route::get("/adminpage",[Admincontroller::class,('Adminpage')])->name('Adminpage');
+Route::get("/admin/vpost",[Admincontroller::class,('Vpost')])->name('vpost');
+Route::post("/admin/vpost",[Admincontroller::class,('Verpost')])->name('verpost');
+Route::get("/admin/book_post",[Admincontroller::class,('Bookpost')])->name('bookpost');
+Route::get("/admin/sermon_post",[Admincontroller::class,('Sermonpost')])->name('sermonpost');
+
 Route::get("/",[Homecontroller::class,('LoyalHome')])->name('home');
 // Bibl Study
 // gust
@@ -43,6 +51,8 @@ Route::get("/logout",[Homecontroller::class,('Logout')])->name('logout');
 Route::get("/contact",[Homecontroller::class,('Contact')])->name('contact');
 Route::get("/about",[Homecontroller::class,('About')])->name('about');
 Route::get("/book",[Homecontroller::class,('Book')])->name('book');
+// Sermon
+Route::get("/sermon",[Studycontroller::class,('Sermon')])->name('sermon');
 // Lesson
 Route::get('/bible_study/bfam',[Studycontroller::class,('BFAM')])->name('bfam');
 Route::get('/bible_study/bfam/series/lesson_1_1',[Studycontroller::class,('Con_1_1')])->name('con_1-1');
@@ -70,8 +80,8 @@ Route::post("/prayer",[Prayercontroller::class,('Prayer_form')])->name('prayer_f
 Route::get("/bible",[Biblecontroller::class,('Bible_Home')])->name('bible_home');
 // Verses
 Route::get("/bible/verse",[Biblecontroller::class,('Verses')])->name('verse');
-Route::get("/bible/vpost",[Biblecontroller::class,('Vpost')])->name('vpost');
-Route::post("/bible/vpost",[Biblecontroller::class,('Verpost')])->name('verpost');
+
+Route::get("/bible/allverse",[Biblecontroller::class,('Allverse')])->name('allverse');
 // Old Testamets
 // Genesis
 Route::get("/bible/old/genesis_1",[Biblecontroller::class,('Genesis_1')])->name('gen_1');

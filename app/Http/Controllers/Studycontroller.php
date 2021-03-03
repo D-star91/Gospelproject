@@ -18,6 +18,9 @@ class Studycontroller extends Controller
     function Profile(){
         return view('Useraccount.profile');
     }
+    function Sermon(){
+        return view('Study.sermon');
+    }
     function Pro_update(){
         $name=request('name');
         $email=request('email');
