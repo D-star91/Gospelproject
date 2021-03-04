@@ -7,7 +7,7 @@
                     <ul class="nav nav-tabs btn-group">
                         <li class="nav-item ms-3">
                             <div class="ms-5 mb-1">
-                                <button type="button" class="btn-v">ကမ္ဘာဦးကျမ်း</button>
+                                <button type="button" class="btn-v">သမ္မာကျမ်းစာ</button>
                                 <button type="button" class="btn-vs dropdown-toggle dropdown-toggle-split" data-mdb-toggle="dropdown" data-bs-toggle="modal" data-bs-target="#bib" aria-expanded="false">
                                 <span class="visually-hidden">Toggle Dropdown</span>
                                 </button>
