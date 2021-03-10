@@ -70,6 +70,29 @@
 .ch-ver{
     padding-left: 20px;
 }
+/* verse*/
+.v-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.v-title-1{
+    font-size: 16px;
+    font-weight: bold;
+}
+.v-p-ch{
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 13px;
+}
+.v-p-ver{
+    text-align: justify;
+    font-size: 16px;
+
+}
+.v-title-p{
+    text-align: justify;
+    font-size: 14px;
+}
 /* Study */
 .h-t6{
     font-size: 80px;

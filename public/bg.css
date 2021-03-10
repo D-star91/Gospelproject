@@ -112,6 +112,54 @@
     padding: 20px;
     margin: 3px 10px
 }
+/* Verse */
+.v-title{
+    padding: 10px;
+}
+.v-menu-ul{
+    list-style: square;
+}
+.v-menu-li{
+    margin-bottom: 8px;
+}
+.v-menu-a{
+    text-decoration: none;
+}
+.v-menu-a:hover{
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+}
+.v-post{
+    margin: 10px;
+    padding: 10px;
+  }
+.v-ti{
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.v-po{
+    padding-top: 20px;
+}
+.v-faith-mun{
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+.v-pg{
+    padding-top: 12px;
+    margin-top: 10px;
+}
+.v-p{
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 12px;
+    border-left: 2px solid black;
+}
+.v-p-p{
+    padding: 5px 15px;
+    margin-bottom: 5px;
+}
+/* Bible */
 /* Study */
 .Study-bg{
     background-image: url("Image/Bible\ study.png");
@@ -162,5 +210,6 @@
     padding: 20px;
 }
 /* Con */
+
 /* BFAM */
 

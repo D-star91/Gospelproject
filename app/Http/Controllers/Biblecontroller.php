@@ -19,7 +19,9 @@ class Biblecontroller extends Controller
         $vposts=Vpost::latest()->get();
         return view('Bible.Verses.allverse',['vposts'=>$vposts]);
     }
-    
+    function faith(){
+        return view('Bible.Verses.faith');
+    }
     // Old Testaments
     // Genesis
     function Genesis_1(){return view('Bible.Old.Genesis.genesis_1');}

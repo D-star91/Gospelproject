@@ -80,6 +80,7 @@ Route::post("/prayer",[Prayercontroller::class,('Prayer_form')])->name('prayer_f
 Route::get("/bible",[Biblecontroller::class,('Bible_Home')])->name('bible_home');
 // Verses
 Route::get("/bible/verse",[Biblecontroller::class,('Verses')])->name('verse');
+Route::get("/bible/verse/faith",[Biblecontroller::class,('faith')])->name('faith');
 
 Route::get("/bible/allverse",[Biblecontroller::class,('Allverse')])->name('allverse');
 // Old Testamets

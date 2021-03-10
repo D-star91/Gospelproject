@@ -4,41 +4,54 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3>နေ့စဉ်ကျမ်းပိုဒ်များ</h3>
-                    <p>နေ့စဉ် ကျမ်းပိုဒ်များကို အလွတ်ကျက်မှတ်ခြင်းဖြင့် ဘုရားသခင်၏နှုတ်ကပတ်တော်နှင့်ပိုမိုရင်းနှီးကျွမ်းဝင်စေပါ။</p>
+                    <div class="v-title">
+                        <h3>နေ့စဉ်ကျမ်းပိုဒ်များ</h3>
+                        <p>နေ့စဉ် ကျမ်းပိုဒ်များကို အလွတ်ကျက်မှတ်ခြင်းဖြင့် ဘုရားသခင်၏နှုတ်ကပတ်တော်နှင့်ပိုမိုရင်းနှီးကျွမ်းဝင်စေပါ။</p>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="v-menu">
-                        <ul>
-                            <li>ယုံကြည်ခြင်း</li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                        <ul class="v-menu-ul">
+                            <li class="v-menu-li"><a href="{{route('faith')}}" class="v-menu-a">ယုံကြည်ခြင်း</a> </li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">ချစ်ခြင်းမေတ္တာ</a></li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">ငြိမ်သက်ခြင်း</a> </li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">မြော်လင့်ခြင်း</a> </li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">အနာရောဂါငြိမ်းခြင်း</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="v-menu">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                        <ul class="v-menu-ul">
+                            <li class="v-menu-li"><a href="" class="v-menu-a">အစွမ်းသတ္တိ</a> </li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">အိမ်ထောင်ရေး</a></li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">ငြိမ်သက်ခြင်း</a> </li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">မြော်လင့်ခြင်း</a> </li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">အနာရောဂါငြိမ်းခြင်း</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="v-menu">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                        <ul class="v-menu-ul">
+                            <li class="v-menu-li"><a href="" class="v-menu-a">ယုံကြည်ခြင်း</a> </li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">ချစ်ခြင်းမေတ္တာ</a></li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">ငြိမ်သက်ခြင်း</a> </li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">မြော်လင့်ခြင်း</a> </li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">အနာရောဂါငြိမ်းခြင်း</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="v-menu">
+                        <ul class="v-menu-ul">
+                            <li class="v-menu-li"><a href="" class="v-menu-a">ယုံကြည်ခြင်း</a> </li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">ချစ်ခြင်းမေတ္တာ</a></li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">ငြိမ်သက်ခြင်း</a> </li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">မြော်လင့်ခြင်း</a> </li>
+                            <li class="v-menu-li"><a href="" class="v-menu-a">အနာရောဂါငြိမ်းခြင်း</a></li>
                         </ul>
                     </div>
                 </div>
@@ -47,12 +60,12 @@
                 <div class="col-md-4">
                     <div class="v-ti">
                         <div class="list-group list-group-flush">
-                            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                            <a href="{{route('verse')}}" class="list-group-item list-group-item-action" aria-current="true">
                                 VERSES
                             </a>
                             <a href="#" class="list-group-item list-group-item-action">30Day Bible Scripture Challenge</a>
                             <a href="#" class="list-group-item list-group-item-action">Bible Reading Challenge</a>
-                            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                            <a href="#" class="list-group-item list-group-item-action">Sermon</a>
                             <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
                           </div>
                     </div>
@@ -71,6 +84,11 @@
                           </div>
                           @endforeach
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+
                 </div>
             </div>
         </div>

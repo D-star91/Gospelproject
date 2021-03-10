@@ -16,6 +16,19 @@
                           @endforeach
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="v-ti">
+                        <div class="list-group list-group-flush">
+                            <a href="{{route('verse')}}" class="list-group-item list-group-item-action" aria-current="true">
+                                VERSES
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">30Day Bible Scripture Challenge</a>
+                            <a href="#" class="list-group-item list-group-item-action">Bible Reading Challenge</a>
+                            <a href="#" class="list-group-item list-group-item-action">Sermon</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
+                          </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
