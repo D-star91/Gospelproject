@@ -196,7 +196,7 @@
                             <a href="{{route('faith')}}" class="list-group-item list-group-item-info " aria-current="true">
                                 ယုံကြည်ခြင်း
                             </a>
-                            <a href="{{route('faith')}}" class="list-group-item list-group-item-info">ချစ်ခြင်းမေတ္တာ</a>
+                            <a href="{{route('love')}}" class="list-group-item list-group-item-info">ချစ်ခြင်းမေတ္တာ</a>
                             <a href="#" class="list-group-item list-group-item-info">ကယ်တင်ခြင်း</a>
                             <a href="#" class="list-group-item list-group-item-info">မြော်လင့်ခြင်း</a>
                             <a href="#" class="list-group-item list-group-item-info">ငြိမ်သက်ခြင်း</a>

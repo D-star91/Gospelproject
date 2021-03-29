@@ -115,9 +115,9 @@
                             
                         <h4 class="bfam-ls-t1">သင်ခန်းစာဖြည့်စွက်ကျမ်းပိုဒ် - အကိုင်းအခက်များကိုချိုင်ခြင်း</h4>
                         <!-- Buttons trigger collapse -->
-                    <button class="btn btn-success my-3" type="button" data-mdb-toggle="collapse" data-mdb-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample2">
+                    <a class="btn btn-success my-3" type="button" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
                             သင်ခန်းစာဖြည့်စွက်ကျမ်းပိုဒ်များ-
-                    </button>
+                    </a>
                     <!-- Collapsed content -->
                     <div class="row">
                     <div class="col">

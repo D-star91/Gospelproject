@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loyal book</title>
+    <title>Book | Loyal land</title>
     <!-- Allstyle -->
     <link rel="stylesheet" href="/style.css">
     <!-- Font Awesome -->

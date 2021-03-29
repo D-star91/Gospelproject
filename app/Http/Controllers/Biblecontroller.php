@@ -22,6 +22,9 @@ class Biblecontroller extends Controller
     function faith(){
         return view('Bible.Verses.faith');
     }
+    function love(){
+        return view('Bible.Verses.love');
+    }
     // Old Testaments
     // Genesis
     function Genesis_1(){return view('Bible.Old.Genesis.genesis_1');}

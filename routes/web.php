@@ -14,7 +14,7 @@ Route::post("/",[Homecontroller::class,('Subscribe')])->name('subscribe');
 Route::get('/received',[Homecontroller::class,('Received')])->name('received');
 
 Route::middleware('guest')->group(function(){
-    Route::get("/home",[Homecontroller::class,('index')])->name('index');
+    Route::get("/welcome",[Homecontroller::class,('index')])->name('index');
     Route::get("/sign_up",[Homecontroller::class,('Sign_up')])->name('sign_up');
     Route::post("/sign_up",[Homecontroller::class,('User_Sign_up')])->name('user_sign_up');
     // login
@@ -81,6 +81,7 @@ Route::get("/bible",[Biblecontroller::class,('Bible_Home')])->name('bible_home')
 // Verses
 Route::get("/bible/verse",[Biblecontroller::class,('Verses')])->name('verse');
 Route::get("/bible/verse/faith",[Biblecontroller::class,('faith')])->name('faith');
+Route::get("/bible/verse/love",[Biblecontroller::class,('love')])->name('love');
 
 Route::get("/bible/allverse",[Biblecontroller::class,('Allverse')])->name('allverse');
 // Old Testamets

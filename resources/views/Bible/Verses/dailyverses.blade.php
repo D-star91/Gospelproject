@@ -15,7 +15,7 @@
                     <div class="v-menu">
                         <ul class="v-menu-ul">
                             <li class="v-menu-li"><a href="{{route('faith')}}" class="v-menu-a">ယုံကြည်ခြင်း</a> </li>
-                            <li class="v-menu-li"><a href="" class="v-menu-a">ချစ်ခြင်းမေတ္တာ</a></li>
+                            <li class="v-menu-li"><a href="{{route('love')}}" class="v-menu-a">ချစ်ခြင်းမေတ္တာ</a></li>
                             <li class="v-menu-li"><a href="" class="v-menu-a">ငြိမ်သက်ခြင်း</a> </li>
                             <li class="v-menu-li"><a href="" class="v-menu-a">မြော်လင့်ခြင်း</a> </li>
                             <li class="v-menu-li"><a href="" class="v-menu-a">အနာရောဂါငြိမ်းခြင်း</a></li>
