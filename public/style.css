@@ -92,3 +92,19 @@ body, html {
   margin: 10px;
   padding: 10px;
 }
+/* Book */
+.book-img{
+  height: 180px;
+  width: 130px;
+  margin: 8px;
+  border: 3px solid white;
+  border-radius: 3px;
+}
+.book-img:hover{
+  opacity: 30%;
+  color: rgb(182, 198, 233);
+  transition: 2s;
+}
+.bookti{
+  margin-bottom: 20px;
+}

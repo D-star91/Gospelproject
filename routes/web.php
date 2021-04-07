@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admincontroller;
 use App\Http\Controllers\Biblecontroller;
+use App\Http\Controllers\Bookcontroller;
 use App\Http\Controllers\Homecontroller;
 use App\Http\Controllers\Prayercontroller;
 use App\Http\Controllers\Studycontroller;
@@ -75,6 +76,8 @@ Route::get('/bible_study/bfam/series/lesson_1_13',[Studycontroller::class,('Con_
 Route::get("/prayer",[Prayercontroller::class,('Prayer')])->name('prayer');
 // Prayer form
 Route::post("/prayer",[Prayercontroller::class,('Prayer_form')])->name('prayer_form');
+// Book
+Route::get("/book/fatherhood",[Bookcontroller::class,('Fatherhood')])->name('fatherhood');
 
 // Bible
 Route::get("/bible",[Biblecontroller::class,('Bible_Home')])->name('bible_home');

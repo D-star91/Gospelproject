@@ -244,3 +244,41 @@
     font-family: 'Bree Serif', serif;
     text-shadow: 1px 1px 5px rgb(26, 1, 1);
 }
+.book-font-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #E65100;
+    text-shadow: 1px 1px 5px rgb(26, 1, 1);
+    text-align: right;
+}
+.book-tab{
+    padding-left: 80px;
+}
+/* fatherhood-book */
+.title-fh1{
+    font-size: 50px;
+    text-align: right;
+    padding-right: 50px;
+    font-weight: bold;
+    margin-top: 30%;
+}
+.title-fh2{
+    text-align: center;
+    font-weight: bold;
+}
+.title-fh3{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 50px;
+    font-weight: bold;
+    margin-top: 30%;
+}
+.title-fh4{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30%;
+}
+.book-p1-font{
+    text-align: justify;
+}

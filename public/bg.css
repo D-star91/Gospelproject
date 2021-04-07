@@ -213,3 +213,18 @@
 
 /* BFAM */
 
+/* Book */
+.book-page-title{
+    padding: 10px;
+}
+.book-page-listbtn{
+    margin: 10px 5px;
+    padding: 10px;
+}
+.page-pg{
+    height: 800px;
+    background: #FBFBFB;
+    box-shadow: 2px 5px 5px 10px #FBFBFB;
+    margin: 20px;
+    padding: 10px 20px;
+}
