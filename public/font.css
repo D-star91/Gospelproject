@@ -265,6 +265,11 @@
 .title-fh2{
     text-align: center;
     font-weight: bold;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.fh-enter-br{
+    margin-top: 10%;
 }
 .title-fh3{
     font-size: 20px;
@@ -281,4 +286,13 @@
 }
 .book-p1-font{
     text-align: justify;
+}
+.list-font-fh{
+    font-size: 20px;
+    font-weight: bold;
+}
+.fh-menu-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
