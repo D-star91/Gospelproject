@@ -38,7 +38,7 @@
                                         <li class="fh-menu-li">ဖခင်သည် ယဇ်ပုရောဟိတ်</li>
                                         <li class="fh-menu-li">ဖခင်သည် ပရောဖက်</li>
                                         <li class="fh-menu-li">ဖခင်သည် ရှင်ဘုရင်</li>
-                                        <li class="fh-menu-li"> ဖခင်ဝတ္တရားပျက်ကွက်သောအခါ</li>
+                                        <li class="fh-menu-li">ဖခင်ဝတ္တရားပျက်ကွက်သောအခါ</li>
                                         <li class="fh-menu-li">စာရေးသူ၏ အတ္ထုပ္ပတ္တိ</li>
                                     </ul>
                                 </div>
@@ -52,7 +52,16 @@
                                     <p class="book-p1-font"><span class="book-tab">ဖခင်အရာဖြစ်ခြင်းသည် သမ္မာကျမ်းထဲတွင် လေ့လာရုံသာမဟုတ်ဘဲ ကျွန်ုပ်ကိုယ်တိုင်လည်းဖခင်တစ် ဦးအဖြစ် ကျွန်တော့် ပထမဇနီး လေးဒီယာနှင့် မွေးစားသားသမီးကိုးယောက် ပြုစုပျိုးထောင်ခဲ့ကြပါသည်။ ပထမဇနီး ကွယ်လွန်ပြီးနောက် ဒုတိယဇနီး ရုသနှင့် မူလစုစုပေါင်းမိသားစုထဲသို့ သုံးယောက်ထပ်ပေါင်းကြပါ သည်။ ထို့ကြောင့် စုပေါင်းလိုက်သည့်အခါ ကျွန်ုပ်သည် လူတစ်ကျိပ်နှစ်ယောက်တို့၏ ဖခင်အရိုက်အရာ၌ တည်ရှိနေပါသည်။ ယခုအခါ အရွယ်ရောက်လာကြပြီဖြစ်၍ အိမ်ထောင်အသီးသီးနှင့် ဖြစ်နေပါပြီ။</span></p>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="list-page5" role="tabpanel" aria-labelledby="list-page-5">5</div>
+                            <div class="tab-pane fade" id="list-page5" role="tabpanel" aria-labelledby="list-page-5">
+                                <div class="fh-page">
+                                    <h3 class="title-fh2">ဘုရားသခင်၏ ဖခင်အရာဖြစ်ခြင်း</h3>
+                                    <hr>
+                                    <p class="book-p1-font fh-enter-br"><span class="book-tab">ကျွန်ုပ်ဖော်ပြလိုသော အကြောင်းအရာမှာ လူသား၏ ဖခင်ဖြစ်ခြင်းမဟုတ်ဘဲ စကြဝဠာတစ်ခုလုံးကို ဖန်ဆင်းပြီး ပိုင်သအုပ်စိုးတော်မူသော ဘုရားသခင်၏ ဖခင်ဖြစ်ခြင်းအကြောင်းဖြစ်ပါသည်။</span></p>
+                                    <p class="book-p1-font "><span class="book-tab">ဧဖက်၊ ၃:၁၄-၁၅ တွင် ရှင်ပေါလုက ပတ္ထနာပြုပုံမှာ -</span></p>
+                                    <p class="book-p1-font-2 "><span class="book-tab">အ​ထက်​ဆို​ခဲ့​ပြီး​သော အ​ကြောင်း​ကြောင့်၊ ကောင်း​ကင်​ပေါ်၊ မြေ​ကြီး​ပေါ်​မှာ​ရှိ​သော တစ်​အိမ်​ထောင်​ လုံးတည်း​ဟူ​သော သား​တော်​အ​ပေါင်း​တို့၏အ​ချုပ်​အ​ခြာ​ဖြစ်​တော်​မူ​သော၊- ငါ​တို့ သ​ခင်​ယေ​ရှု​ခ​ရစ်၏ ခ​မည်း​တော်​ရှေ့​မှာ ငါ​သည် ဒူး​ထောက်၍ ဆု​တောင်း​လေ့​ရှိ၏။-</span></p>
+                                    <p class="book-p1-font"><span class="book-tab">ဤကျမ်းပိုဒ်တွင် “အိမ်ထောင်” ဟု ဘာသာပြန်ဆိုသော ဂရိဘာသာစကားမှာ “patna” ဖြစ်သည်။ သို့ဖြစ်၍ ထို “patna” မှာ ဂရိဘာသာစကား “အဖ” မှ တိုက်ရိုက်ဆင်းသက်လာခြင်းဖြစ်သည်။ ထိုစကားကို အတိကျဆုံးဘာသာပြန်လျှင် “ဖခင်ဖြစ်ခြင်း” ဟူ၍ အဓိပ္ပါယ်ရပါသည်။ ဤအရာနှင့်ပတ်သက်၍ ဂျေ၊ ဘီ၊ ဖိလစ် ကည်း “အဖ နှင့် တစ်အိမ်ထောင်လုံး” သို့မဟုတ် “ဖခင်ဖြစ်ရခြင်း၏ ဆက်စပ်မှုအဖြစ်မှန်” ကို အောက်ပါအတိုင်း ဘာသာပြန်ဆိုထားသည်။</span></p>
+                                </div>
+                            </div>
                             <div class="tab-pane fade" id="list-page6" role="tabpanel" aria-labelledby="list-page-6">6</div>
                             <div class="tab-pane fade" id="list-page7" role="tabpanel" aria-labelledby="list-page-7">7</div>
                             <div class="tab-pane fade" id="list-page8" role="tabpanel" aria-labelledby="list-page-8">8</div>
@@ -77,7 +86,7 @@
                <div class="col-md-2">
                 <div class="book-page-listbtn">
                     <h3 class="list-font-fh">စာမျက်နှာများ</h3>
-                    <div class="btn-group " role="group" aria-label="First group">
+                    <div class=" px-3 pt-2" role="group" aria-label="First group">
                         <div class="list-group d-inline" id="list-tab" role="tablist">
                             <a class="btn btn-danger active" id="list-page-1" data-bs-toggle="list" href="#list-page1" role="tab" aria-controls="page1">1</a>
                             <a class="btn btn-danger mt-1" id="list-page-2" data-bs-toggle="list" href="#list-page2" role="tab" aria-controls="page2">2</a>
