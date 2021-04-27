@@ -229,9 +229,17 @@
     padding: 10px 20px;
     
 }
+.page-lab{
+    background: #fbfbfb94;
+    box-shadow: 2px 5px 5px 10px #fbfbfb94;
+    margin-top: 20px;
+    padding: 5px
+}
+
 .book-page-listbtn{
     padding: 10px;
     position: fixed;
+    
 }
 /* Fatherhood */
 .fh-menu{

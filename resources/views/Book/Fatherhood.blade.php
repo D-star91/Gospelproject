@@ -10,11 +10,27 @@
                </div>
            </div>
            <div class="row justify-content-center mb-5">
-               <div class="col-md-2">  </div>
+               <div class="col-md-2">
+                   <div class="page-lab">
+                        <h3 class="page-lab-f1">အခြားသောစာအုပ်များ</h3>
+                        <ul class="page-lab-ul">
+                            <li class="page-lab-li"><a href="">BFAM Pray</a></li>
+                            <li class="page-lab-li"><a href="">အသက်တာသစ်၏အခြေခံအုတ်မြစ်</a></li>
+                            <li class="page-lab-li"><a href="">ဘဝအတွက်လိုအပ်သော အစွမ်းတန်ခိုး</a></li>
+                            <li class="page-lab-li"><a href="">ထံတော်သို့ ဆုတောင်းပဌနာ</a></li>
+                            <li class="page-lab-li"><a href="">သမ္မာကျမ်းလာ သင်ခန်းစာတရာ</a></li>
+                            <li class="page-lab-li"><a href="">ဘုရားသခင်၏အလိုတော်ရုပ်ပုံလွှာ</a></li>
+                            <li class="page-lab-li"><a href="">ဘုရားသခင်ထံမှသတင်းကောင်း</a></li>
+                            <li class="page-lab-li"><a href="">ယေရှုခရစ်တော်ထံမှသတင်းကောင်း</a></li>
+                            <li class="page-lab-li"><a href="">ပျော်ရွှင်သောဘဝကိုသွားရာလမ်း</a></li>
+                            <li class="page-lab-li"><a href="">အသက်တာကိုပြောင်းလဲသော ဝိညာဉ်ရေးရာ တန်ခိုးတော်</a></li>
+                        </ul>
+                   </div>
+               </div>
                <div class="col-md-8">
                     <div class="page-pg">
                         <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="list-page1" role="tabpanel" aria-labelledby="list-page-2">
+                            <div class="tab-pane fade show active" id="list-page1" role="tabpanel" aria-labelledby="list-page-1">
                                 <div class="fh-page">
                                     <h6 class="text-center">- ၁ -</h6>
                                     <h3 class="title-fh1">ဖခင်ဟူသည်</h3>
@@ -25,7 +41,7 @@
                             <div class="tab-pane fade" id="list-page2" role="tabpanel" aria-labelledby="list-page-2">
                                 <div class="fh-page">
                                     <h6 class="text-center">- ၂ -</h6>
-                                    <h5 class="title-fh5">Fatherhood</h5>
+                                    <h5 class="title-fh5 mt-5">Fatherhood</h5>
                                     <p class="book-p1-font">
                                         Catalogue No. T 04 <br>
                                         Copyright 1985 <br>
@@ -548,7 +564,7 @@
                <div class="col-md-2">
                 <div class="book-page-listbtn">
                     <h3 class="list-font-fh">စာမျက်နှာများ</h3>
-                    <div class=" px-3 pt-2" role="group" aria-label="First group">
+                    <div class=" px-3 pt-1" role="group" aria-label="First group">
                         <div class="list-group d-inline" id="list-tab" role="tablist">
                             <a class="btn btn-danger active mt-3" id="list-page-2" data-bs-toggle="list" href="#list-page1" role="tab" aria-controls="page1">01</a>
                             <a class="btn btn-danger mt-3" id="list-page-2" data-bs-toggle="list" href="#list-page2" role="tab" aria-controls="page2">02 </a>
