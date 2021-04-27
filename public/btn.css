@@ -652,3 +652,9 @@
     background: #E65100;
     transition: 800ms;
 }
+.book-btn{
+    padding: 6px 17px;
+    margin-top: 10px;
+    border: 1 solid brown;
+    background: crimson;
+}
