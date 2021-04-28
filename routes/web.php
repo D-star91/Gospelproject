@@ -78,7 +78,7 @@ Route::get("/prayer",[Prayercontroller::class,('Prayer')])->name('prayer');
 Route::post("/prayer",[Prayercontroller::class,('Prayer_form')])->name('prayer_form');
 // Book
 Route::get("/book/fatherhood",[Bookcontroller::class,('Fatherhood')])->name('fatherhood');
-
+Route::get("/book/pray_to_Him",[Bookcontroller::class,('Praytohim')])->name('Praytohim');
 // Bible
 Route::get("/bible",[Biblecontroller::class,('Bible_Home')])->name('bible_home');
 // Verses

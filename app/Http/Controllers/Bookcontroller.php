@@ -10,4 +10,7 @@ class Bookcontroller extends Controller
     function Fatherhood(){
         return view('Book.Fatherhood');
     }
+    function Praytohim(){
+        return view('Book.PraytoHim');
+    }
 }

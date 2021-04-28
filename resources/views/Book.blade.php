@@ -28,7 +28,7 @@
                                 <a href="{{route('fatherhood')}}"><img src="{{asset('Image/Fatherhood.png')}}" class="book-img" alt="Fatherhood"></a>
                                 <a href=""><img src="{{asset('Image/IMG_20201013_104240.jpg')}}" class="book-img" alt="..."></a>
                                 <a href=""><img src="{{asset('Image/IMG_20201013_104300.jpg')}}" class="book-img" alt="..."></a>
-                                <a href=""><img src="{{asset('Image/IMG_20201013_104314.jpg')}}" class="book-img" alt="..."></a>
+                                <a href="{{route('Praytohim')}}"><img src="{{asset('Image/IMG_20201013_104314.jpg')}}" class="book-img" alt="..."></a>
                                 <a href=""><img src="{{asset('Image/IMG_20201013_115258.jpg')}}" class="book-img" alt="..."></a>
                                 <a href=""><img src="{{asset('Image/IMG_20201013_104322.jpg')}}" class="book-img" alt="..."></a>
                                 <a href=""><img src="{{asset('Image/IMG_20201014_155709.jpg')}}" class="book-img" alt="..."></a>
@@ -39,12 +39,12 @@
                             </div>
                             <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
                                 <a href="{{route('fatherhood')}}"><img src="{{asset('Image/Fatherhood.png')}}" class="book-img" alt="..."></a>
-                                <a href=""><img src="{{asset('Image/IMG_20201013_104314.jpg')}}" class="book-img" alt="..."></a>
+                                <a href="{{route('Praytohim')}}"><img src="{{asset('Image/IMG_20201013_104314.jpg')}}" class="book-img" alt="..."></a>
                                 <a href=""><img src="{{asset('Image/IMG_20201014_155709.jpg')}}" class="book-img" alt="..."></a>
                                 <a href=""><img src="{{asset('Image/IMG_20201014_155647.jpg')}}" class="book-img" alt="..."></a>
                             </div>
                             <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                                <a href=""><img src="{{asset('Image/IMG_20201013_104314.jpg')}}" class="book-img" alt="..."></a>
+                                <a href="{{route('Praytohim')}}"><img src="{{asset('Image/IMG_20201013_104314.jpg')}}" class="book-img" alt="..."></a>
                                 <a href=""><img src="{{asset('Image/IMG_20201013_104322.jpg')}}" class="book-img" alt="..."></a>
                             </div>
                             <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
